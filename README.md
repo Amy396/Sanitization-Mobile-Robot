@@ -86,8 +86,7 @@ ros2 run localization_sanitization navigation_node
 - Systematically sanitize rooms and track progress.
 
 #### Launch Commands:
--After task 3 is completed, and navigator node  show following message :
--No more goals. Stopping Navigator
+-After task 3 is completed, and navigator node  show following message : No more goals. Stopping Navigator
 ```bash
 ros2 run localization_sanitization sanitization_node
 ```
