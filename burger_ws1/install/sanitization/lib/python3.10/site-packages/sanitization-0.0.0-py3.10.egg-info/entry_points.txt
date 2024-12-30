@@ -1,0 +1,8 @@
+[console_scripts]
+control = autonomous_exploration.control:main
+example_navigation = autonomous_exploration.example_navigation:main
+heatmap = autonomous_exploration.heatmap:main
+my_control = autonomous_exploration.my_control:main
+nav_to_pose = autonomous_exploration.nav_to_pose:main
+sanitize = autonomous_exploration.sanitize:main
+

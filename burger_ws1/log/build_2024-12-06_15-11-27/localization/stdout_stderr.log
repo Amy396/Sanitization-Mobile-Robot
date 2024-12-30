@@ -1,0 +1,47 @@
+running egg_info
+creating ../../build/localization/localization.egg-info
+writing ../../build/localization/localization.egg-info/PKG-INFO
+writing dependency_links to ../../build/localization/localization.egg-info/dependency_links.txt
+writing entry points to ../../build/localization/localization.egg-info/entry_points.txt
+writing requirements to ../../build/localization/localization.egg-info/requires.txt
+writing top-level names to ../../build/localization/localization.egg-info/top_level.txt
+writing manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+reading manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+writing manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/amy/burger_ws1/build/localization/build
+creating /home/amy/burger_ws1/build/localization/build/lib
+creating /home/amy/burger_ws1/build/localization/build/lib/localization
+copying localization/__init__.py -> /home/amy/burger_ws1/build/localization/build/lib/localization
+copying localization/navigation_node.py -> /home/amy/burger_ws1/build/localization/build/lib/localization
+copying localization/rotation_node.py -> /home/amy/burger_ws1/build/localization/build/lib/localization
+copying localization/exploration_node.py -> /home/amy/burger_ws1/build/localization/build/lib/localization
+copying localization/controller_node.py -> /home/amy/burger_ws1/build/localization/build/lib/localization
+running install
+running install_lib
+creating /home/amy/burger_ws1/install/localization/lib/python3.10/site-packages/localization
+copying /home/amy/burger_ws1/build/localization/build/lib/localization/__init__.py -> /home/amy/burger_ws1/install/localization/lib/python3.10/site-packages/localization
+copying /home/amy/burger_ws1/build/localization/build/lib/localization/navigation_node.py -> /home/amy/burger_ws1/install/localization/lib/python3.10/site-packages/localization
+copying /home/amy/burger_ws1/build/localization/build/lib/localization/rotation_node.py -> /home/amy/burger_ws1/install/localization/lib/python3.10/site-packages/localization
+copying /home/amy/burger_ws1/build/localization/build/lib/localization/exploration_node.py -> /home/amy/burger_ws1/install/localization/lib/python3.10/site-packages/localization
+copying /home/amy/burger_ws1/build/localization/build/lib/localization/controller_node.py -> /home/amy/burger_ws1/install/localization/lib/python3.10/site-packages/localization
+byte-compiling /home/amy/burger_ws1/install/localization/lib/python3.10/site-packages/localization/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/amy/burger_ws1/install/localization/lib/python3.10/site-packages/localization/navigation_node.py to navigation_node.cpython-310.pyc
+byte-compiling /home/amy/burger_ws1/install/localization/lib/python3.10/site-packages/localization/rotation_node.py to rotation_node.cpython-310.pyc
+byte-compiling /home/amy/burger_ws1/install/localization/lib/python3.10/site-packages/localization/exploration_node.py to exploration_node.cpython-310.pyc
+byte-compiling /home/amy/burger_ws1/install/localization/lib/python3.10/site-packages/localization/controller_node.py to controller_node.cpython-310.pyc
+running install_data
+creating /home/amy/burger_ws1/install/localization/share/ament_index
+creating /home/amy/burger_ws1/install/localization/share/ament_index/resource_index
+creating /home/amy/burger_ws1/install/localization/share/ament_index/resource_index/packages
+copying resource/localization -> /home/amy/burger_ws1/install/localization/share/ament_index/resource_index/packages
+copying package.xml -> /home/amy/burger_ws1/install/localization/share/localization
+running install_egg_info
+Copying ../../build/localization/localization.egg-info to /home/amy/burger_ws1/install/localization/lib/python3.10/site-packages/localization-0.0.0-py3.10.egg-info
+running install_scripts
+Installing controller_node script to /home/amy/burger_ws1/install/localization/lib/localization
+Installing exploration_node script to /home/amy/burger_ws1/install/localization/lib/localization
+Installing navigation_node script to /home/amy/burger_ws1/install/localization/lib/localization
+Installing rotation_node script to /home/amy/burger_ws1/install/localization/lib/localization
+writing list of installed files to '/home/amy/burger_ws1/build/localization/install.log'

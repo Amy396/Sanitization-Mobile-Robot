@@ -1,0 +1,49 @@
+[1.206s] Invoking command in '/home/amy/burger_ws1/src/localization': PYTHONPATH=/home/amy/burger_ws1/build/localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amy/burger_ws1/install/localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/localization build --build-base /home/amy/burger_ws1/build/localization/build install --record /home/amy/burger_ws1/build/localization/install.log --single-version-externally-managed install_data
+[1.412s] running egg_info
+[1.413s] creating ../../build/localization/localization.egg-info
+[1.414s] writing ../../build/localization/localization.egg-info/PKG-INFO
+[1.414s] writing dependency_links to ../../build/localization/localization.egg-info/dependency_links.txt
+[1.414s] writing entry points to ../../build/localization/localization.egg-info/entry_points.txt
+[1.414s] writing requirements to ../../build/localization/localization.egg-info/requires.txt
+[1.414s] writing top-level names to ../../build/localization/localization.egg-info/top_level.txt
+[1.415s] writing manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[1.417s] reading manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[1.418s] writing manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[1.418s] running build
+[1.418s] running build_py
+[1.418s] creating /home/amy/burger_ws1/build/localization/build
+[1.419s] creating /home/amy/burger_ws1/build/localization/build/lib
+[1.419s] creating /home/amy/burger_ws1/build/localization/build/lib/localization
+[1.420s] copying localization/__init__.py -> /home/amy/burger_ws1/build/localization/build/lib/localization
+[1.420s] copying localization/navigation_node.py -> /home/amy/burger_ws1/build/localization/build/lib/localization
+[1.420s] copying localization/rotation_node.py -> /home/amy/burger_ws1/build/localization/build/lib/localization
+[1.420s] copying localization/exploration_node.py -> /home/amy/burger_ws1/build/localization/build/lib/localization
+[1.421s] copying localization/controller_node.py -> /home/amy/burger_ws1/build/localization/build/lib/localization
+[1.422s] running install
+[1.422s] running install_lib
+[1.423s] creating /home/amy/burger_ws1/install/localization/lib/python3.10/site-packages/localization
+[1.424s] copying /home/amy/burger_ws1/build/localization/build/lib/localization/__init__.py -> /home/amy/burger_ws1/install/localization/lib/python3.10/site-packages/localization
+[1.424s] copying /home/amy/burger_ws1/build/localization/build/lib/localization/navigation_node.py -> /home/amy/burger_ws1/install/localization/lib/python3.10/site-packages/localization
+[1.424s] copying /home/amy/burger_ws1/build/localization/build/lib/localization/rotation_node.py -> /home/amy/burger_ws1/install/localization/lib/python3.10/site-packages/localization
+[1.424s] copying /home/amy/burger_ws1/build/localization/build/lib/localization/exploration_node.py -> /home/amy/burger_ws1/install/localization/lib/python3.10/site-packages/localization
+[1.424s] copying /home/amy/burger_ws1/build/localization/build/lib/localization/controller_node.py -> /home/amy/burger_ws1/install/localization/lib/python3.10/site-packages/localization
+[1.425s] byte-compiling /home/amy/burger_ws1/install/localization/lib/python3.10/site-packages/localization/__init__.py to __init__.cpython-310.pyc
+[1.425s] byte-compiling /home/amy/burger_ws1/install/localization/lib/python3.10/site-packages/localization/navigation_node.py to navigation_node.cpython-310.pyc
+[1.428s] byte-compiling /home/amy/burger_ws1/install/localization/lib/python3.10/site-packages/localization/rotation_node.py to rotation_node.cpython-310.pyc
+[1.428s] byte-compiling /home/amy/burger_ws1/install/localization/lib/python3.10/site-packages/localization/exploration_node.py to exploration_node.cpython-310.pyc
+[1.432s] byte-compiling /home/amy/burger_ws1/install/localization/lib/python3.10/site-packages/localization/controller_node.py to controller_node.cpython-310.pyc
+[1.433s] running install_data
+[1.433s] creating /home/amy/burger_ws1/install/localization/share/ament_index
+[1.433s] creating /home/amy/burger_ws1/install/localization/share/ament_index/resource_index
+[1.433s] creating /home/amy/burger_ws1/install/localization/share/ament_index/resource_index/packages
+[1.434s] copying resource/localization -> /home/amy/burger_ws1/install/localization/share/ament_index/resource_index/packages
+[1.434s] copying package.xml -> /home/amy/burger_ws1/install/localization/share/localization
+[1.434s] running install_egg_info
+[1.435s] Copying ../../build/localization/localization.egg-info to /home/amy/burger_ws1/install/localization/lib/python3.10/site-packages/localization-0.0.0-py3.10.egg-info
+[1.436s] running install_scripts
+[1.453s] Installing controller_node script to /home/amy/burger_ws1/install/localization/lib/localization
+[1.453s] Installing exploration_node script to /home/amy/burger_ws1/install/localization/lib/localization
+[1.454s] Installing navigation_node script to /home/amy/burger_ws1/install/localization/lib/localization
+[1.454s] Installing rotation_node script to /home/amy/burger_ws1/install/localization/lib/localization
+[1.454s] writing list of installed files to '/home/amy/burger_ws1/build/localization/install.log'
+[1.517s] Invoked command in '/home/amy/burger_ws1/src/localization' returned '0': PYTHONPATH=/home/amy/burger_ws1/build/localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amy/burger_ws1/install/localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/localization build --build-base /home/amy/burger_ws1/build/localization/build install --record /home/amy/burger_ws1/build/localization/install.log --single-version-externally-managed install_data

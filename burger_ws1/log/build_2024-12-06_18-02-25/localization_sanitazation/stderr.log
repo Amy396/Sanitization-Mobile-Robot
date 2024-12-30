@@ -1,0 +1,5 @@
+  File "/home/amy/burger_ws1/install/localization_sanitazation/lib/python3.10/site-packages/localization_sanitazation/navigation_node.py", line 84
+    route_file_path = os.path.join(os.getcwd(), 'src', 'localization_sanitazation', 'localization_sanitazation'', 'navgoals.yaml')
+                                                                                                                                ^
+SyntaxError: unterminated string literal (detected at line 84)
+

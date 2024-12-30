@@ -1,0 +1,24 @@
+[3.924s] Invoking command in '/home/amy/burger_ws1/src/map_maker': PYTHONPATH=/home/amy/burger_ws1/build/map_maker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amy/burger_ws1/install/map_maker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/map_maker build --build-base /home/amy/burger_ws1/build/map_maker/build install --record /home/amy/burger_ws1/build/map_maker/install.log --single-version-externally-managed install_data
+[5.070s] running egg_info
+[5.074s] writing ../../build/map_maker/map_maker.egg-info/PKG-INFO
+[5.074s] writing dependency_links to ../../build/map_maker/map_maker.egg-info/dependency_links.txt
+[5.075s] writing entry points to ../../build/map_maker/map_maker.egg-info/entry_points.txt
+[5.075s] writing requirements to ../../build/map_maker/map_maker.egg-info/requires.txt
+[5.075s] writing top-level names to ../../build/map_maker/map_maker.egg-info/top_level.txt
+[5.102s] reading manifest file '../../build/map_maker/map_maker.egg-info/SOURCES.txt'
+[5.105s] writing manifest file '../../build/map_maker/map_maker.egg-info/SOURCES.txt'
+[5.105s] running build
+[5.105s] running build_py
+[5.108s] running install
+[5.109s] running install_lib
+[5.114s] running install_data
+[5.119s] running install_egg_info
+[5.119s] removing '/home/amy/burger_ws1/install/map_maker/lib/python3.10/site-packages/map_maker-0.0.0-py3.10.egg-info' (and everything under it)
+[5.120s] Copying ../../build/map_maker/map_maker.egg-info to /home/amy/burger_ws1/install/map_maker/lib/python3.10/site-packages/map_maker-0.0.0-py3.10.egg-info
+[5.123s] running install_scripts
+[5.254s] Installing FSM_controller_node script to /home/amy/burger_ws1/install/map_maker/lib/map_maker
+[5.255s] Installing frontier_explorer_node script to /home/amy/burger_ws1/install/map_maker/lib/map_maker
+[5.256s] Installing path_planning_navigator_node script to /home/amy/burger_ws1/install/map_maker/lib/map_maker
+[5.256s] Installing rotation_node script to /home/amy/burger_ws1/install/map_maker/lib/map_maker
+[5.256s] writing list of installed files to '/home/amy/burger_ws1/build/map_maker/install.log'
+[5.363s] Invoked command in '/home/amy/burger_ws1/src/map_maker' returned '0': PYTHONPATH=/home/amy/burger_ws1/build/map_maker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amy/burger_ws1/install/map_maker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/map_maker build --build-base /home/amy/burger_ws1/build/map_maker/build install --record /home/amy/burger_ws1/build/map_maker/install.log --single-version-externally-managed install_data

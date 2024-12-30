@@ -1,0 +1,27 @@
+[4.094s] Invoking command in '/home/amy/burger_ws1/src/localization_sanitazation': PYTHONPATH=/home/amy/burger_ws1/build/localization_sanitazation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amy/burger_ws1/install/localization_sanitazation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/localization_sanitazation build --build-base /home/amy/burger_ws1/build/localization_sanitazation/build install --record /home/amy/burger_ws1/build/localization_sanitazation/install.log --single-version-externally-managed install_data
+[5.220s] running egg_info
+[5.222s] writing ../../build/localization_sanitazation/localization_sanitazation.egg-info/PKG-INFO
+[5.223s] writing dependency_links to ../../build/localization_sanitazation/localization_sanitazation.egg-info/dependency_links.txt
+[5.225s] writing entry points to ../../build/localization_sanitazation/localization_sanitazation.egg-info/entry_points.txt
+[5.226s] writing requirements to ../../build/localization_sanitazation/localization_sanitazation.egg-info/requires.txt
+[5.227s] writing top-level names to ../../build/localization_sanitazation/localization_sanitazation.egg-info/top_level.txt
+[5.239s] reading manifest file '../../build/localization_sanitazation/localization_sanitazation.egg-info/SOURCES.txt'
+[5.242s] writing manifest file '../../build/localization_sanitazation/localization_sanitazation.egg-info/SOURCES.txt'
+[5.244s] running build
+[5.245s] running build_py
+[5.248s] copying localization_sanitazation/sanitization_node.py -> /home/amy/burger_ws1/build/localization_sanitazation/build/lib/localization_sanitazation
+[5.249s] running install
+[5.251s] running install_lib
+[5.254s] copying /home/amy/burger_ws1/build/localization_sanitazation/build/lib/localization_sanitazation/sanitization_node.py -> /home/amy/burger_ws1/install/localization_sanitazation/lib/python3.10/site-packages/localization_sanitazation
+[5.256s] byte-compiling /home/amy/burger_ws1/install/localization_sanitazation/lib/python3.10/site-packages/localization_sanitazation/sanitization_node.py to sanitization_node.cpython-310.pyc
+[5.280s] running install_data
+[5.281s] running install_egg_info
+[5.286s] removing '/home/amy/burger_ws1/install/localization_sanitazation/lib/python3.10/site-packages/localization_sanitazation-0.0.0-py3.10.egg-info' (and everything under it)
+[5.287s] Copying ../../build/localization_sanitazation/localization_sanitazation.egg-info to /home/amy/burger_ws1/install/localization_sanitazation/lib/python3.10/site-packages/localization_sanitazation-0.0.0-py3.10.egg-info
+[5.289s] running install_scripts
+[5.409s] Installing FSMcontroller_node script to /home/amy/burger_ws1/install/localization_sanitazation/lib/localization_sanitazation
+[5.410s] Installing localization_node script to /home/amy/burger_ws1/install/localization_sanitazation/lib/localization_sanitazation
+[5.410s] Installing navigation_node script to /home/amy/burger_ws1/install/localization_sanitazation/lib/localization_sanitazation
+[5.411s] Installing sanitization_node script to /home/amy/burger_ws1/install/localization_sanitazation/lib/localization_sanitazation
+[5.416s] writing list of installed files to '/home/amy/burger_ws1/build/localization_sanitazation/install.log'
+[5.646s] Invoked command in '/home/amy/burger_ws1/src/localization_sanitazation' returned '0': PYTHONPATH=/home/amy/burger_ws1/build/localization_sanitazation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amy/burger_ws1/install/localization_sanitazation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/localization_sanitazation build --build-base /home/amy/burger_ws1/build/localization_sanitazation/build install --record /home/amy/burger_ws1/build/localization_sanitazation/install.log --single-version-externally-managed install_data

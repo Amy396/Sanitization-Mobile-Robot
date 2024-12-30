@@ -1,0 +1,47 @@
+running egg_info
+creating ../../build/sanitizer_burger_controller/sanitizer_burger_controller.egg-info
+writing ../../build/sanitizer_burger_controller/sanitizer_burger_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/sanitizer_burger_controller/sanitizer_burger_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/sanitizer_burger_controller/sanitizer_burger_controller.egg-info/entry_points.txt
+writing requirements to ../../build/sanitizer_burger_controller/sanitizer_burger_controller.egg-info/requires.txt
+writing top-level names to ../../build/sanitizer_burger_controller/sanitizer_burger_controller.egg-info/top_level.txt
+writing manifest file '../../build/sanitizer_burger_controller/sanitizer_burger_controller.egg-info/SOURCES.txt'
+reading manifest file '../../build/sanitizer_burger_controller/sanitizer_burger_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/sanitizer_burger_controller/sanitizer_burger_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/amy/burger_ws1/build/sanitizer_burger_controller/build
+creating /home/amy/burger_ws1/build/sanitizer_burger_controller/build/lib
+creating /home/amy/burger_ws1/build/sanitizer_burger_controller/build/lib/sanitizer_burger_controller
+copying sanitizer_burger_controller/__init__.py -> /home/amy/burger_ws1/build/sanitizer_burger_controller/build/lib/sanitizer_burger_controller
+copying sanitizer_burger_controller/uv_sanitization_node.py -> /home/amy/burger_ws1/build/sanitizer_burger_controller/build/lib/sanitizer_burger_controller
+copying sanitizer_burger_controller/exploration_node.py -> /home/amy/burger_ws1/build/sanitizer_burger_controller/build/lib/sanitizer_burger_controller
+copying sanitizer_burger_controller/basic_navigator_node.py -> /home/amy/burger_ws1/build/sanitizer_burger_controller/build/lib/sanitizer_burger_controller
+copying sanitizer_burger_controller/basic_sanitizer_navigator_node.py -> /home/amy/burger_ws1/build/sanitizer_burger_controller/build/lib/sanitizer_burger_controller
+running install
+running install_lib
+creating /home/amy/burger_ws1/install/sanitizer_burger_controller/lib/python3.10/site-packages/sanitizer_burger_controller
+copying /home/amy/burger_ws1/build/sanitizer_burger_controller/build/lib/sanitizer_burger_controller/__init__.py -> /home/amy/burger_ws1/install/sanitizer_burger_controller/lib/python3.10/site-packages/sanitizer_burger_controller
+copying /home/amy/burger_ws1/build/sanitizer_burger_controller/build/lib/sanitizer_burger_controller/uv_sanitization_node.py -> /home/amy/burger_ws1/install/sanitizer_burger_controller/lib/python3.10/site-packages/sanitizer_burger_controller
+copying /home/amy/burger_ws1/build/sanitizer_burger_controller/build/lib/sanitizer_burger_controller/exploration_node.py -> /home/amy/burger_ws1/install/sanitizer_burger_controller/lib/python3.10/site-packages/sanitizer_burger_controller
+copying /home/amy/burger_ws1/build/sanitizer_burger_controller/build/lib/sanitizer_burger_controller/basic_navigator_node.py -> /home/amy/burger_ws1/install/sanitizer_burger_controller/lib/python3.10/site-packages/sanitizer_burger_controller
+copying /home/amy/burger_ws1/build/sanitizer_burger_controller/build/lib/sanitizer_burger_controller/basic_sanitizer_navigator_node.py -> /home/amy/burger_ws1/install/sanitizer_burger_controller/lib/python3.10/site-packages/sanitizer_burger_controller
+byte-compiling /home/amy/burger_ws1/install/sanitizer_burger_controller/lib/python3.10/site-packages/sanitizer_burger_controller/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/amy/burger_ws1/install/sanitizer_burger_controller/lib/python3.10/site-packages/sanitizer_burger_controller/uv_sanitization_node.py to uv_sanitization_node.cpython-310.pyc
+byte-compiling /home/amy/burger_ws1/install/sanitizer_burger_controller/lib/python3.10/site-packages/sanitizer_burger_controller/exploration_node.py to exploration_node.cpython-310.pyc
+byte-compiling /home/amy/burger_ws1/install/sanitizer_burger_controller/lib/python3.10/site-packages/sanitizer_burger_controller/basic_navigator_node.py to basic_navigator_node.cpython-310.pyc
+byte-compiling /home/amy/burger_ws1/install/sanitizer_burger_controller/lib/python3.10/site-packages/sanitizer_burger_controller/basic_sanitizer_navigator_node.py to basic_sanitizer_navigator_node.cpython-310.pyc
+running install_data
+creating /home/amy/burger_ws1/install/sanitizer_burger_controller/share/ament_index
+creating /home/amy/burger_ws1/install/sanitizer_burger_controller/share/ament_index/resource_index
+creating /home/amy/burger_ws1/install/sanitizer_burger_controller/share/ament_index/resource_index/packages
+copying resource/sanitizer_burger_controller -> /home/amy/burger_ws1/install/sanitizer_burger_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/amy/burger_ws1/install/sanitizer_burger_controller/share/sanitizer_burger_controller
+running install_egg_info
+Copying ../../build/sanitizer_burger_controller/sanitizer_burger_controller.egg-info to /home/amy/burger_ws1/install/sanitizer_burger_controller/lib/python3.10/site-packages/sanitizer_burger_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing basic_navigator_node script to /home/amy/burger_ws1/install/sanitizer_burger_controller/lib/sanitizer_burger_controller
+Installing basic_sanitizer_navigator_node script to /home/amy/burger_ws1/install/sanitizer_burger_controller/lib/sanitizer_burger_controller
+Installing exploration_node script to /home/amy/burger_ws1/install/sanitizer_burger_controller/lib/sanitizer_burger_controller
+Installing uv_sanitization_nod script to /home/amy/burger_ws1/install/sanitizer_burger_controller/lib/sanitizer_burger_controller
+writing list of installed files to '/home/amy/burger_ws1/build/sanitizer_burger_controller/install.log'

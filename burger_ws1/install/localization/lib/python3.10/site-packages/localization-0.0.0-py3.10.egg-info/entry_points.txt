@@ -1,0 +1,6 @@
+[console_scripts]
+controller_node = localization.controller_node:main
+exploration_node = localization.exploration_node:main
+navigation_node = localization.navigation_node:main
+rotation_node = localization.rotation_node:main
+

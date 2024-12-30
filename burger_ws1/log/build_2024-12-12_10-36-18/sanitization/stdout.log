@@ -1,0 +1,22 @@
+running develop
+running egg_info
+writing sanitization.egg-info/PKG-INFO
+writing dependency_links to sanitization.egg-info/dependency_links.txt
+writing entry points to sanitization.egg-info/entry_points.txt
+writing requirements to sanitization.egg-info/requires.txt
+writing top-level names to sanitization.egg-info/top_level.txt
+reading manifest file 'sanitization.egg-info/SOURCES.txt'
+writing manifest file 'sanitization.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization.egg-link (link to .)
+Installing control script to /home/amy/burger_ws1/install/sanitization/lib/sanitization
+Installing example_navigation script to /home/amy/burger_ws1/install/sanitization/lib/sanitization
+Installing heatmap script to /home/amy/burger_ws1/install/sanitization/lib/sanitization
+Installing my_control script to /home/amy/burger_ws1/install/sanitization/lib/sanitization
+Installing nav_to_pose script to /home/amy/burger_ws1/install/sanitization/lib/sanitization
+Installing sanitize script to /home/amy/burger_ws1/install/sanitization/lib/sanitization
+
+Installed /home/amy/burger_ws1/build/sanitization
+running symlink_data
+symbolically linking /home/amy/burger_ws1/build/sanitization/resource/sanitization -> /home/amy/burger_ws1/install/sanitization/share/ament_index/resource_index/packages
+symbolically linking /home/amy/burger_ws1/build/sanitization/package.xml -> /home/amy/burger_ws1/install/sanitization/share/sanitization

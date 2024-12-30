@@ -1,0 +1,6 @@
+[console_scripts]
+FSM_controller_node = map_maker.FSM_controller_node:main
+frontier_explorer_node = map_maker.frontier_explorer_node:main
+path_planning_navigator_node = map_maker.path_planning_navigator_node:main
+rotation_node = map_maker.rotation_node:main
+

@@ -1,0 +1,4 @@
+[console_scripts]
+velocity_controller_node = velocity_controller_pkg.velocity_controller_node:main
+velocity_controller_with_FSM_node = velocity_controller_pkg.velocity_controller_with_FSM_node:main
+

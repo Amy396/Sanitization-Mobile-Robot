@@ -1,0 +1,57 @@
+[5.137s] Invoking command in '/home/amy/burger_ws1/src/sanitization': PYTHONPATH=/home/amy/burger_ws1/build/sanitization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sanitization build --build-base /home/amy/burger_ws1/build/sanitization/build install --record /home/amy/burger_ws1/build/sanitization/install.log --single-version-externally-managed install_data
+[6.144s] running egg_info
+[6.149s] creating ../../build/sanitization/sanitization.egg-info
+[6.150s] writing ../../build/sanitization/sanitization.egg-info/PKG-INFO
+[6.151s] writing dependency_links to ../../build/sanitization/sanitization.egg-info/dependency_links.txt
+[6.151s] writing entry points to ../../build/sanitization/sanitization.egg-info/entry_points.txt
+[6.152s] writing requirements to ../../build/sanitization/sanitization.egg-info/requires.txt
+[6.152s] writing top-level names to ../../build/sanitization/sanitization.egg-info/top_level.txt
+[6.153s] writing manifest file '../../build/sanitization/sanitization.egg-info/SOURCES.txt'
+[6.157s] reading manifest file '../../build/sanitization/sanitization.egg-info/SOURCES.txt'
+[6.159s] writing manifest file '../../build/sanitization/sanitization.egg-info/SOURCES.txt'
+[6.159s] running build
+[6.160s] running build_py
+[6.161s] creating /home/amy/burger_ws1/build/sanitization/build
+[6.162s] creating /home/amy/burger_ws1/build/sanitization/build/lib
+[6.162s] creating /home/amy/burger_ws1/build/sanitization/build/lib/sanitization
+[6.163s] copying sanitization/__init__.py -> /home/amy/burger_ws1/build/sanitization/build/lib/sanitization
+[6.164s] copying sanitization/control.py -> /home/amy/burger_ws1/build/sanitization/build/lib/sanitization
+[6.177s] copying sanitization/heatmap.py -> /home/amy/burger_ws1/build/sanitization/build/lib/sanitization
+[6.178s] copying sanitization/nav_to_pose.py -> /home/amy/burger_ws1/build/sanitization/build/lib/sanitization
+[6.181s] copying sanitization/sanitize.py -> /home/amy/burger_ws1/build/sanitization/build/lib/sanitization
+[6.182s] copying sanitization/my_control.py -> /home/amy/burger_ws1/build/sanitization/build/lib/sanitization
+[6.187s] copying sanitization/example_navigation.py -> /home/amy/burger_ws1/build/sanitization/build/lib/sanitization
+[6.188s] running install
+[6.189s] running install_lib
+[6.213s] creating /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization
+[6.213s] copying /home/amy/burger_ws1/build/sanitization/build/lib/sanitization/__init__.py -> /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization
+[6.214s] copying /home/amy/burger_ws1/build/sanitization/build/lib/sanitization/control.py -> /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization
+[6.214s] copying /home/amy/burger_ws1/build/sanitization/build/lib/sanitization/heatmap.py -> /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization
+[6.214s] copying /home/amy/burger_ws1/build/sanitization/build/lib/sanitization/nav_to_pose.py -> /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization
+[6.214s] copying /home/amy/burger_ws1/build/sanitization/build/lib/sanitization/sanitize.py -> /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization
+[6.214s] copying /home/amy/burger_ws1/build/sanitization/build/lib/sanitization/my_control.py -> /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization
+[6.214s] copying /home/amy/burger_ws1/build/sanitization/build/lib/sanitization/example_navigation.py -> /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization
+[6.214s] byte-compiling /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization/__init__.py to __init__.cpython-310.pyc
+[6.215s] byte-compiling /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization/control.py to control.cpython-310.pyc
+[6.215s] byte-compiling /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization/heatmap.py to heatmap.cpython-310.pyc
+[6.215s] byte-compiling /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization/nav_to_pose.py to nav_to_pose.cpython-310.pyc
+[6.223s] byte-compiling /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization/sanitize.py to sanitize.cpython-310.pyc
+[6.232s] byte-compiling /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization/my_control.py to my_control.cpython-310.pyc
+[6.245s] byte-compiling /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization/example_navigation.py to example_navigation.cpython-310.pyc
+[6.247s] running install_data
+[6.248s] creating /home/amy/burger_ws1/install/sanitization/share/ament_index
+[6.248s] creating /home/amy/burger_ws1/install/sanitization/share/ament_index/resource_index
+[6.248s] creating /home/amy/burger_ws1/install/sanitization/share/ament_index/resource_index/packages
+[6.249s] copying resource/sanitization -> /home/amy/burger_ws1/install/sanitization/share/ament_index/resource_index/packages
+[6.249s] copying package.xml -> /home/amy/burger_ws1/install/sanitization/share/sanitization
+[6.250s] running install_egg_info
+[6.256s] Copying ../../build/sanitization/sanitization.egg-info to /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization-0.0.0-py3.10.egg-info
+[6.259s] running install_scripts
+[6.332s] Installing control script to /home/amy/burger_ws1/install/sanitization/lib/sanitization
+[6.332s] Installing example_navigation script to /home/amy/burger_ws1/install/sanitization/lib/sanitization
+[6.333s] Installing heatmap script to /home/amy/burger_ws1/install/sanitization/lib/sanitization
+[6.333s] Installing my_control script to /home/amy/burger_ws1/install/sanitization/lib/sanitization
+[6.333s] Installing nav_to_pose script to /home/amy/burger_ws1/install/sanitization/lib/sanitization
+[6.333s] Installing sanitize script to /home/amy/burger_ws1/install/sanitization/lib/sanitization
+[6.334s] writing list of installed files to '/home/amy/burger_ws1/build/sanitization/install.log'
+[6.453s] Invoked command in '/home/amy/burger_ws1/src/sanitization' returned '0': PYTHONPATH=/home/amy/burger_ws1/build/sanitization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sanitization build --build-base /home/amy/burger_ws1/build/sanitization/build install --record /home/amy/burger_ws1/build/sanitization/install.log --single-version-externally-managed install_data

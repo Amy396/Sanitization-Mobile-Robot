@@ -1,0 +1,8 @@
+
+lookahead_distance : 0.24  #The distance ahead of the robot 
+speed : 0.18  #This parameter sets the maximum linear speed of the robot
+expansion_size : 1  #This parameter is related to wall expansion
+target_error : 0.62  #This parameter defines the acceptable error when the robot is approaching its target.
+robot_r : 0.35  #This parameter represents the local safety distance around the robot.
+MAX_STUCK_COUNT : 100  # Number of consecutive checks below PROGRESS_THRESHOLD before considering stuck
+PROGRESS_THRESHOLD : 0.15  # Difference in distance (meters) to target to consider making progress

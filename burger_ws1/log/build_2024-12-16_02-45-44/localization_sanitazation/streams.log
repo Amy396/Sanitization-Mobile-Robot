@@ -1,0 +1,43 @@
+[1.036s] Invoking command in '/home/amy/burger_ws1/build/localization_sanitazation': PYTHONPATH=/home/amy/burger_ws1/build/localization_sanitazation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amy/burger_ws1/install/localization_sanitazation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/amy/burger_ws1/build/localization_sanitazation/build
+[1.270s] running develop
+[1.389s] Removing /home/amy/burger_ws1/install/localization_sanitazation/lib/python3.10/site-packages/localization-sanitazation.egg-link (link to .)
+[1.427s] Invoked command in '/home/amy/burger_ws1/build/localization_sanitazation' returned '0': PYTHONPATH=/home/amy/burger_ws1/build/localization_sanitazation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amy/burger_ws1/install/localization_sanitazation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/amy/burger_ws1/build/localization_sanitazation/build
+[1.430s] Invoking command in '/home/amy/burger_ws1/src/localization_sanitazation': PYTHONPATH=/home/amy/burger_ws1/build/localization_sanitazation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amy/burger_ws1/install/localization_sanitazation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/localization_sanitazation build --build-base /home/amy/burger_ws1/build/localization_sanitazation/build install --record /home/amy/burger_ws1/build/localization_sanitazation/install.log --single-version-externally-managed install_data --force
+[1.650s] running egg_info
+[1.651s] writing ../../build/localization_sanitazation/localization_sanitazation.egg-info/PKG-INFO
+[1.651s] writing dependency_links to ../../build/localization_sanitazation/localization_sanitazation.egg-info/dependency_links.txt
+[1.652s] writing entry points to ../../build/localization_sanitazation/localization_sanitazation.egg-info/entry_points.txt
+[1.652s] writing requirements to ../../build/localization_sanitazation/localization_sanitazation.egg-info/requires.txt
+[1.652s] writing top-level names to ../../build/localization_sanitazation/localization_sanitazation.egg-info/top_level.txt
+[1.654s] reading manifest file '../../build/localization_sanitazation/localization_sanitazation.egg-info/SOURCES.txt'
+[1.655s] writing manifest file '../../build/localization_sanitazation/localization_sanitazation.egg-info/SOURCES.txt'
+[1.655s] running build
+[1.655s] running build_py
+[1.657s] copying localization_sanitazation/navigation_node.py -> /home/amy/burger_ws1/build/localization_sanitazation/build/lib/localization_sanitazation
+[1.658s] copying localization_sanitazation/FSMcontroller_node.py -> /home/amy/burger_ws1/build/localization_sanitazation/build/lib/localization_sanitazation
+[1.659s] copying localization_sanitazation/localization_node.py -> /home/amy/burger_ws1/build/localization_sanitazation/build/lib/localization_sanitazation
+[1.660s] copying localization_sanitazation/sanitization_node.py -> /home/amy/burger_ws1/build/localization_sanitazation/build/lib/localization_sanitazation
+[1.660s] running install
+[1.661s] running install_lib
+[1.662s] copying /home/amy/burger_ws1/build/localization_sanitazation/build/lib/localization_sanitazation/__init__.py -> /home/amy/burger_ws1/install/localization_sanitazation/lib/python3.10/site-packages/localization_sanitazation
+[1.663s] copying /home/amy/burger_ws1/build/localization_sanitazation/build/lib/localization_sanitazation/navigation_node.py -> /home/amy/burger_ws1/install/localization_sanitazation/lib/python3.10/site-packages/localization_sanitazation
+[1.663s] copying /home/amy/burger_ws1/build/localization_sanitazation/build/lib/localization_sanitazation/FSMcontroller_node.py -> /home/amy/burger_ws1/install/localization_sanitazation/lib/python3.10/site-packages/localization_sanitazation
+[1.663s] copying /home/amy/burger_ws1/build/localization_sanitazation/build/lib/localization_sanitazation/localization_node.py -> /home/amy/burger_ws1/install/localization_sanitazation/lib/python3.10/site-packages/localization_sanitazation
+[1.663s] copying /home/amy/burger_ws1/build/localization_sanitazation/build/lib/localization_sanitazation/sanitization_node.py -> /home/amy/burger_ws1/install/localization_sanitazation/lib/python3.10/site-packages/localization_sanitazation
+[1.665s] byte-compiling /home/amy/burger_ws1/install/localization_sanitazation/lib/python3.10/site-packages/localization_sanitazation/__init__.py to __init__.cpython-310.pyc
+[1.665s] byte-compiling /home/amy/burger_ws1/install/localization_sanitazation/lib/python3.10/site-packages/localization_sanitazation/navigation_node.py to navigation_node.cpython-310.pyc
+[1.666s] byte-compiling /home/amy/burger_ws1/install/localization_sanitazation/lib/python3.10/site-packages/localization_sanitazation/FSMcontroller_node.py to FSMcontroller_node.cpython-310.pyc
+[1.666s] byte-compiling /home/amy/burger_ws1/install/localization_sanitazation/lib/python3.10/site-packages/localization_sanitazation/localization_node.py to localization_node.cpython-310.pyc
+[1.667s] byte-compiling /home/amy/burger_ws1/install/localization_sanitazation/lib/python3.10/site-packages/localization_sanitazation/sanitization_node.py to sanitization_node.cpython-310.pyc
+[1.670s] running install_data
+[1.670s] copying resource/localization_sanitazation -> /home/amy/burger_ws1/install/localization_sanitazation/share/ament_index/resource_index/packages
+[1.673s] copying package.xml -> /home/amy/burger_ws1/install/localization_sanitazation/share/localization_sanitazation
+[1.674s] running install_egg_info
+[1.675s] Copying ../../build/localization_sanitazation/localization_sanitazation.egg-info to /home/amy/burger_ws1/install/localization_sanitazation/lib/python3.10/site-packages/localization_sanitazation-0.0.0-py3.10.egg-info
+[1.677s] running install_scripts
+[1.692s] Installing FSMcontroller_node script to /home/amy/burger_ws1/install/localization_sanitazation/lib/localization_sanitazation
+[1.692s] Installing localization_node script to /home/amy/burger_ws1/install/localization_sanitazation/lib/localization_sanitazation
+[1.692s] Installing navigation_node script to /home/amy/burger_ws1/install/localization_sanitazation/lib/localization_sanitazation
+[1.692s] Installing sanitization_node script to /home/amy/burger_ws1/install/localization_sanitazation/lib/localization_sanitazation
+[1.692s] writing list of installed files to '/home/amy/burger_ws1/build/localization_sanitazation/install.log'
+[1.742s] Invoked command in '/home/amy/burger_ws1/src/localization_sanitazation' returned '0': PYTHONPATH=/home/amy/burger_ws1/build/localization_sanitazation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amy/burger_ws1/install/localization_sanitazation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/localization_sanitazation build --build-base /home/amy/burger_ws1/build/localization_sanitazation/build install --record /home/amy/burger_ws1/build/localization_sanitazation/install.log --single-version-externally-managed install_data --force

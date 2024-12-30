@@ -1,0 +1,42 @@
+running develop
+Removing /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization.egg-link (link to .)
+running egg_info
+writing ../../build/sanitization/sanitization.egg-info/PKG-INFO
+writing dependency_links to ../../build/sanitization/sanitization.egg-info/dependency_links.txt
+writing entry points to ../../build/sanitization/sanitization.egg-info/entry_points.txt
+writing requirements to ../../build/sanitization/sanitization.egg-info/requires.txt
+writing top-level names to ../../build/sanitization/sanitization.egg-info/top_level.txt
+reading manifest file '../../build/sanitization/sanitization.egg-info/SOURCES.txt'
+writing manifest file '../../build/sanitization/sanitization.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization
+copying /home/amy/burger_ws1/build/sanitization/build/lib/sanitization/__init__.py -> /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization
+copying /home/amy/burger_ws1/build/sanitization/build/lib/sanitization/control.py -> /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization
+copying /home/amy/burger_ws1/build/sanitization/build/lib/sanitization/heatmap.py -> /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization
+copying /home/amy/burger_ws1/build/sanitization/build/lib/sanitization/nav_to_pose.py -> /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization
+copying /home/amy/burger_ws1/build/sanitization/build/lib/sanitization/sanitize.py -> /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization
+copying /home/amy/burger_ws1/build/sanitization/build/lib/sanitization/my_control.py -> /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization
+copying /home/amy/burger_ws1/build/sanitization/build/lib/sanitization/example_navigation.py -> /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization
+byte-compiling /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization/control.py to control.cpython-310.pyc
+byte-compiling /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization/heatmap.py to heatmap.cpython-310.pyc
+byte-compiling /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization/nav_to_pose.py to nav_to_pose.cpython-310.pyc
+byte-compiling /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization/sanitize.py to sanitize.cpython-310.pyc
+byte-compiling /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization/my_control.py to my_control.cpython-310.pyc
+byte-compiling /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization/example_navigation.py to example_navigation.cpython-310.pyc
+running install_data
+copying resource/sanitization -> /home/amy/burger_ws1/install/sanitization/share/ament_index/resource_index/packages
+copying package.xml -> /home/amy/burger_ws1/install/sanitization/share/sanitization
+running install_egg_info
+Copying ../../build/sanitization/sanitization.egg-info to /home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages/sanitization-0.0.0-py3.10.egg-info
+running install_scripts
+Installing control script to /home/amy/burger_ws1/install/sanitization/lib/sanitization
+Installing example_navigation script to /home/amy/burger_ws1/install/sanitization/lib/sanitization
+Installing heatmap script to /home/amy/burger_ws1/install/sanitization/lib/sanitization
+Installing my_control script to /home/amy/burger_ws1/install/sanitization/lib/sanitization
+Installing nav_to_pose script to /home/amy/burger_ws1/install/sanitization/lib/sanitization
+Installing sanitize script to /home/amy/burger_ws1/install/sanitization/lib/sanitization
+writing list of installed files to '/home/amy/burger_ws1/build/sanitization/install.log'

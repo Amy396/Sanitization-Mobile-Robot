@@ -1,0 +1,6 @@
+source;share/velocity_controller_pkg/hook/pythonpath.ps1
+source;share/velocity_controller_pkg/hook/pythonpath.dsv
+source;share/velocity_controller_pkg/hook/pythonpath.sh
+source;share/velocity_controller_pkg/hook/ament_prefix_path.ps1
+source;share/velocity_controller_pkg/hook/ament_prefix_path.dsv
+source;share/velocity_controller_pkg/hook/ament_prefix_path.sh

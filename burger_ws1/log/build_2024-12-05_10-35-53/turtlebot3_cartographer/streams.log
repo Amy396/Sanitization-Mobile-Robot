@@ -1,0 +1,46 @@
+[0.224s] Invoking command in '/home/amy/burger_ws1/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amy/burger_ws1/install/sanitizer_burger_controller:/home/amy/burger_ws1/install/velocity_controller_pkg:/home/amy/burger_ws1/install/turtlebot3_teleop:/home/amy/burger_ws1/install/turtlebot3_example:/home/amy/burger_ws1/install/map_maker:/opt/ros/humble /usr/bin/cmake /home/amy/burger_ws1/src/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/amy/burger_ws1/install/turtlebot3_cartographer
+[0.928s] -- The C compiler identification is GNU 11.4.0
+[0.928s] -- The CXX compiler identification is GNU 11.4.0
+[0.929s] -- Detecting C compiler ABI info
+[0.929s] -- Detecting C compiler ABI info - done
+[0.930s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.930s] -- Detecting C compile features
+[0.930s] -- Detecting C compile features - done
+[0.930s] -- Detecting CXX compiler ABI info
+[0.930s] -- Detecting CXX compiler ABI info - done
+[0.931s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.931s] -- Detecting CXX compile features
+[0.931s] -- Detecting CXX compile features - done
+[0.932s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.949s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.160s] -- Configuring done
+[1.164s] -- Generating done
+[1.166s] -- Build files have been written to: /home/amy/burger_ws1/build/turtlebot3_cartographer
+[1.174s] Invoked command in '/home/amy/burger_ws1/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amy/burger_ws1/install/sanitizer_burger_controller:/home/amy/burger_ws1/install/velocity_controller_pkg:/home/amy/burger_ws1/install/turtlebot3_teleop:/home/amy/burger_ws1/install/turtlebot3_example:/home/amy/burger_ws1/install/map_maker:/opt/ros/humble /usr/bin/cmake /home/amy/burger_ws1/src/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/amy/burger_ws1/install/turtlebot3_cartographer
+[1.174s] Invoking command in '/home/amy/burger_ws1/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amy/burger_ws1/install/sanitizer_burger_controller:/home/amy/burger_ws1/install/velocity_controller_pkg:/home/amy/burger_ws1/install/turtlebot3_teleop:/home/amy/burger_ws1/install/turtlebot3_example:/home/amy/burger_ws1/install/map_maker:/opt/ros/humble /usr/bin/cmake --build /home/amy/burger_ws1/build/turtlebot3_cartographer -- -j8 -l8
+[1.208s] Invoked command in '/home/amy/burger_ws1/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amy/burger_ws1/install/sanitizer_burger_controller:/home/amy/burger_ws1/install/velocity_controller_pkg:/home/amy/burger_ws1/install/turtlebot3_teleop:/home/amy/burger_ws1/install/turtlebot3_example:/home/amy/burger_ws1/install/map_maker:/opt/ros/humble /usr/bin/cmake --build /home/amy/burger_ws1/build/turtlebot3_cartographer -- -j8 -l8
+[1.219s] Invoking command in '/home/amy/burger_ws1/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amy/burger_ws1/install/sanitizer_burger_controller:/home/amy/burger_ws1/install/velocity_controller_pkg:/home/amy/burger_ws1/install/turtlebot3_teleop:/home/amy/burger_ws1/install/turtlebot3_example:/home/amy/burger_ws1/install/map_maker:/opt/ros/humble /usr/bin/cmake --install /home/amy/burger_ws1/build/turtlebot3_cartographer
+[1.225s] -- Install configuration: ""
+[1.225s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config
+[1.229s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[1.230s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch
+[1.230s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[1.230s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[1.231s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz
+[1.232s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[1.233s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[1.233s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[1.233s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[1.233s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[1.234s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[1.234s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[1.234s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[1.234s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[1.234s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[1.234s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[1.235s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[1.235s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[1.235s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[1.235s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[1.235s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[1.238s] Invoked command in '/home/amy/burger_ws1/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amy/burger_ws1/install/sanitizer_burger_controller:/home/amy/burger_ws1/install/velocity_controller_pkg:/home/amy/burger_ws1/install/turtlebot3_teleop:/home/amy/burger_ws1/install/turtlebot3_example:/home/amy/burger_ws1/install/map_maker:/opt/ros/humble /usr/bin/cmake --install /home/amy/burger_ws1/build/turtlebot3_cartographer

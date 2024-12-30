@@ -1,0 +1,27 @@
+[3.172s] Invoking command in '/home/amy/burger_ws1/src/localization': PYTHONPATH=/home/amy/burger_ws1/build/localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amy/burger_ws1/install/localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/localization build --build-base /home/amy/burger_ws1/build/localization/build install --record /home/amy/burger_ws1/build/localization/install.log --single-version-externally-managed install_data
+[3.878s] running egg_info
+[3.882s] writing ../../build/localization/localization.egg-info/PKG-INFO
+[3.882s] writing dependency_links to ../../build/localization/localization.egg-info/dependency_links.txt
+[3.882s] writing entry points to ../../build/localization/localization.egg-info/entry_points.txt
+[3.883s] writing requirements to ../../build/localization/localization.egg-info/requires.txt
+[3.883s] writing top-level names to ../../build/localization/localization.egg-info/top_level.txt
+[3.886s] reading manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[3.894s] writing manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[3.894s] running build
+[3.895s] running build_py
+[3.895s] copying localization/exploration_node.py -> /home/amy/burger_ws1/build/localization/build/lib/localization
+[3.897s] running install
+[3.897s] running install_lib
+[3.901s] copying /home/amy/burger_ws1/build/localization/build/lib/localization/exploration_node.py -> /home/amy/burger_ws1/install/localization/lib/python3.10/site-packages/localization
+[3.905s] byte-compiling /home/amy/burger_ws1/install/localization/lib/python3.10/site-packages/localization/exploration_node.py to exploration_node.cpython-310.pyc
+[3.914s] running install_data
+[3.914s] running install_egg_info
+[3.919s] removing '/home/amy/burger_ws1/install/localization/lib/python3.10/site-packages/localization-0.0.0-py3.10.egg-info' (and everything under it)
+[3.920s] Copying ../../build/localization/localization.egg-info to /home/amy/burger_ws1/install/localization/lib/python3.10/site-packages/localization-0.0.0-py3.10.egg-info
+[3.927s] running install_scripts
+[3.972s] Installing controller_node script to /home/amy/burger_ws1/install/localization/lib/localization
+[3.972s] Installing exploration_node script to /home/amy/burger_ws1/install/localization/lib/localization
+[3.972s] Installing navigation_node script to /home/amy/burger_ws1/install/localization/lib/localization
+[3.973s] Installing rotation_node script to /home/amy/burger_ws1/install/localization/lib/localization
+[3.974s] writing list of installed files to '/home/amy/burger_ws1/build/localization/install.log'
+[4.062s] Invoked command in '/home/amy/burger_ws1/src/localization' returned '0': PYTHONPATH=/home/amy/burger_ws1/build/localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amy/burger_ws1/install/localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/localization build --build-base /home/amy/burger_ws1/build/localization/build install --record /home/amy/burger_ws1/build/localization/install.log --single-version-externally-managed install_data

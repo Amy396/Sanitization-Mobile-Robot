@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.001620] (localization_sanitazation) JobQueued: {'identifier': 'localization_sanitazation', 'dependencies': OrderedDict()}
+[0.002067] (map_maker) JobQueued: {'identifier': 'map_maker', 'dependencies': OrderedDict()}
+[0.002220] (localization_sanitazation) JobStarted: {'identifier': 'localization_sanitazation'}
+[0.043910] (map_maker) JobStarted: {'identifier': 'map_maker'}
+[0.086025] (-) TimerEvent: {}
+[0.188732] (-) TimerEvent: {}
+[0.290773] (-) TimerEvent: {}
+[0.391863] (-) TimerEvent: {}
+[0.494212] (-) TimerEvent: {}
+[0.595161] (-) TimerEvent: {}
+[0.699289] (-) TimerEvent: {}
+[0.799995] (-) TimerEvent: {}
+[0.900847] (-) TimerEvent: {}
+[1.002874] (-) TimerEvent: {}
+[1.103936] (-) TimerEvent: {}
+[1.204805] (-) TimerEvent: {}
+[1.305291] (-) TimerEvent: {}
+[1.406032] (-) TimerEvent: {}
+[1.506601] (-) TimerEvent: {}
+[1.607191] (-) TimerEvent: {}
+[1.707770] (-) TimerEvent: {}
+[1.808466] (-) TimerEvent: {}
+[1.909078] (-) TimerEvent: {}
+[2.009624] (-) TimerEvent: {}
+[2.110275] (-) TimerEvent: {}
+[2.210923] (-) TimerEvent: {}
+[2.319701] (-) TimerEvent: {}
+[2.420412] (-) TimerEvent: {}
+[2.520951] (-) TimerEvent: {}
+[2.621557] (-) TimerEvent: {}
+[2.727345] (-) TimerEvent: {}
+[2.827885] (-) TimerEvent: {}
+[2.928386] (-) TimerEvent: {}
+[3.044282] (-) TimerEvent: {}
+[3.146192] (-) TimerEvent: {}
+[3.248903] (-) TimerEvent: {}
+[3.349555] (-) TimerEvent: {}
+[3.451063] (-) TimerEvent: {}
+[3.551660] (-) TimerEvent: {}
+[3.652208] (-) TimerEvent: {}
+[3.752799] (-) TimerEvent: {}
+[3.853577] (-) TimerEvent: {}
+[3.954218] (-) TimerEvent: {}
+[4.060265] (-) TimerEvent: {}
+[4.160921] (-) TimerEvent: {}
+[4.261674] (-) TimerEvent: {}
+[4.362331] (-) TimerEvent: {}
+[4.462866] (-) TimerEvent: {}
+[4.551488] (map_maker) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/map_maker', 'build', '--build-base', '/home/amy/burger_ws1/build/map_maker/build', 'install', '--record', '/home/amy/burger_ws1/build/map_maker/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/amy/burger_ws1/src/map_maker', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'amy', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}', 'HOME': '/home/amy', 'OLDPWD': '/home/amy/burger_ws1/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/amy/burger_ws1/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'amy', 'NAME': 'AMINEM', 'WSL_INTEROP': '/run/WSL/755_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/humble/share/turtlebot3_gazebo/models', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/amy/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Amineh/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/Amineh/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/Amineh/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Amineh/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': 'af56196c-274f-489f-96e4-eb413c4d851f', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'OGRE_VERSION': '1', 'AMENT_PREFIX_PATH': '/home/amy/burger_ws1/install/sanitizer_burger_controller:/home/amy/burger_ws1/install/velocity_controller_pkg:/home/amy/burger_ws1/install/turtlebot3:/home/amy/burger_ws1/install/turtlebot3_teleop:/home/amy/burger_ws1/install/turtlebot3_bringup:/home/amy/burger_ws1/install/turtlebot3_node:/home/amy/burger_ws1/install/turtlebot3_navigation2:/home/amy/burger_ws1/install/turtlebot3_example:/home/amy/burger_ws1/install/turtlebot3_description:/home/amy/burger_ws1/install/turtlebot3_cartographer:/home/amy/burger_ws1/install/sanitization:/home/amy/burger_ws1/install/map_maker_bringup:/home/amy/burger_ws1/install/map_maker:/home/amy/burger_ws1/install/localization_sanitazation:/home/amy/burger_ws1/install/localization:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11', 'PWD': '/home/amy/burger_ws1/build/map_maker', 'TURTLEBOT3_MODEL': 'burger', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/amy/burger_ws1/build/map_maker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amy/burger_ws1/install/map_maker/lib/python3.10/site-packages:/home/amy/burger_ws1/install/sanitizer_burger_controller/lib/python3.10/site-packages:/home/amy/burger_ws1/install/velocity_controller_pkg/lib/python3.10/site-packages:/home/amy/burger_ws1/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/amy/burger_ws1/install/turtlebot3_example/lib/python3.10/site-packages:/home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages:/home/amy/burger_ws1/install/map_maker/lib/python3.10/site-packages:/home/amy/burger_ws1/install/localization_sanitazation/lib/python3.10/site-packages:/home/amy/burger_ws1/install/localization/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/amy/burger_ws1/install/turtlebot3:/home/amy/burger_ws1/install/turtlebot3_bringup:/home/amy/burger_ws1/install/turtlebot3_node:/home/amy/burger_ws1/install/turtlebot3_navigation2:/home/amy/burger_ws1/install/turtlebot3_description:/home/amy/burger_ws1/install/turtlebot3_cartographer:/home/amy/burger_ws1/install/map_maker_bringup', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[4.564686] (-) TimerEvent: {}
+[4.665380] (-) TimerEvent: {}
+[4.751533] (localization_sanitazation) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/localization_sanitazation', 'build', '--build-base', '/home/amy/burger_ws1/build/localization_sanitazation/build', 'install', '--record', '/home/amy/burger_ws1/build/localization_sanitazation/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/amy/burger_ws1/src/localization_sanitazation', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'amy', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}', 'HOME': '/home/amy', 'OLDPWD': '/home/amy/burger_ws1/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/amy/burger_ws1/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'amy', 'NAME': 'AMINEM', 'WSL_INTEROP': '/run/WSL/755_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/humble/share/turtlebot3_gazebo/models', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/amy/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Amineh/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/Amineh/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/Amineh/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Amineh/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': 'af56196c-274f-489f-96e4-eb413c4d851f', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'OGRE_VERSION': '1', 'AMENT_PREFIX_PATH': '/home/amy/burger_ws1/install/sanitizer_burger_controller:/home/amy/burger_ws1/install/velocity_controller_pkg:/home/amy/burger_ws1/install/turtlebot3:/home/amy/burger_ws1/install/turtlebot3_teleop:/home/amy/burger_ws1/install/turtlebot3_bringup:/home/amy/burger_ws1/install/turtlebot3_node:/home/amy/burger_ws1/install/turtlebot3_navigation2:/home/amy/burger_ws1/install/turtlebot3_example:/home/amy/burger_ws1/install/turtlebot3_description:/home/amy/burger_ws1/install/turtlebot3_cartographer:/home/amy/burger_ws1/install/sanitization:/home/amy/burger_ws1/install/map_maker_bringup:/home/amy/burger_ws1/install/map_maker:/home/amy/burger_ws1/install/localization_sanitazation:/home/amy/burger_ws1/install/localization:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11', 'PWD': '/home/amy/burger_ws1/build/localization_sanitazation', 'TURTLEBOT3_MODEL': 'burger', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/amy/burger_ws1/build/localization_sanitazation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amy/burger_ws1/install/localization_sanitazation/lib/python3.10/site-packages:/home/amy/burger_ws1/install/sanitizer_burger_controller/lib/python3.10/site-packages:/home/amy/burger_ws1/install/velocity_controller_pkg/lib/python3.10/site-packages:/home/amy/burger_ws1/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/amy/burger_ws1/install/turtlebot3_example/lib/python3.10/site-packages:/home/amy/burger_ws1/install/sanitization/lib/python3.10/site-packages:/home/amy/burger_ws1/install/map_maker/lib/python3.10/site-packages:/home/amy/burger_ws1/install/localization_sanitazation/lib/python3.10/site-packages:/home/amy/burger_ws1/install/localization/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/amy/burger_ws1/install/turtlebot3:/home/amy/burger_ws1/install/turtlebot3_bringup:/home/amy/burger_ws1/install/turtlebot3_node:/home/amy/burger_ws1/install/turtlebot3_navigation2:/home/amy/burger_ws1/install/turtlebot3_description:/home/amy/burger_ws1/install/turtlebot3_cartographer:/home/amy/burger_ws1/install/map_maker_bringup', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[4.766184] (-) TimerEvent: {}
+[4.866893] (-) TimerEvent: {}
+[4.967495] (-) TimerEvent: {}
+[5.072737] (-) TimerEvent: {}
+[5.173541] (-) TimerEvent: {}
+[5.274107] (-) TimerEvent: {}
+[5.374921] (-) TimerEvent: {}
+[5.475574] (-) TimerEvent: {}
+[5.576318] (-) TimerEvent: {}
+[5.676935] (-) TimerEvent: {}
+[5.770117] (map_maker) StdoutLine: {'line': b'running egg_info\n'}
+[5.775229] (map_maker) StdoutLine: {'line': b'writing ../../build/map_maker/map_maker.egg-info/PKG-INFO\n'}
+[5.776502] (map_maker) StdoutLine: {'line': b'writing dependency_links to ../../build/map_maker/map_maker.egg-info/dependency_links.txt\n'}
+[5.776813] (map_maker) StdoutLine: {'line': b'writing entry points to ../../build/map_maker/map_maker.egg-info/entry_points.txt\n'}
+[5.777045] (-) TimerEvent: {}
+[5.777377] (map_maker) StdoutLine: {'line': b'writing requirements to ../../build/map_maker/map_maker.egg-info/requires.txt\n'}
+[5.777946] (map_maker) StdoutLine: {'line': b'writing top-level names to ../../build/map_maker/map_maker.egg-info/top_level.txt\n'}
+[5.778978] (map_maker) StdoutLine: {'line': b"reading manifest file '../../build/map_maker/map_maker.egg-info/SOURCES.txt'\n"}
+[5.781514] (map_maker) StdoutLine: {'line': b"writing manifest file '../../build/map_maker/map_maker.egg-info/SOURCES.txt'\n"}
+[5.782077] (map_maker) StdoutLine: {'line': b'running build\n'}
+[5.782412] (map_maker) StdoutLine: {'line': b'running build_py\n'}
+[5.783763] (map_maker) StdoutLine: {'line': b'running install\n'}
+[5.784897] (map_maker) StdoutLine: {'line': b'running install_lib\n'}
+[5.788651] (map_maker) StdoutLine: {'line': b'running install_data\n'}
+[5.789465] (map_maker) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.799016] (map_maker) StdoutLine: {'line': b"removing '/home/amy/burger_ws1/install/map_maker/lib/python3.10/site-packages/map_maker-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.801142] (map_maker) StdoutLine: {'line': b'Copying ../../build/map_maker/map_maker.egg-info to /home/amy/burger_ws1/install/map_maker/lib/python3.10/site-packages/map_maker-0.0.0-py3.10.egg-info\n'}
+[5.814591] (map_maker) StdoutLine: {'line': b'running install_scripts\n'}
+[5.877221] (-) TimerEvent: {}
+[5.882752] (map_maker) StdoutLine: {'line': b'Installing FSM_controller_node script to /home/amy/burger_ws1/install/map_maker/lib/map_maker\n'}
+[5.883743] (map_maker) StdoutLine: {'line': b'Installing frontier_explorer_node script to /home/amy/burger_ws1/install/map_maker/lib/map_maker\n'}
+[5.884675] (map_maker) StdoutLine: {'line': b'Installing path_planning_navigator_node script to /home/amy/burger_ws1/install/map_maker/lib/map_maker\n'}
+[5.885502] (map_maker) StdoutLine: {'line': b'Installing rotation_node script to /home/amy/burger_ws1/install/map_maker/lib/map_maker\n'}
+[5.889289] (map_maker) StdoutLine: {'line': b"writing list of installed files to '/home/amy/burger_ws1/build/map_maker/install.log'\n"}
+[5.903093] (localization_sanitazation) StdoutLine: {'line': b'running egg_info\n'}
+[5.905854] (localization_sanitazation) StdoutLine: {'line': b'writing ../../build/localization_sanitazation/localization_sanitazation.egg-info/PKG-INFO\n'}
+[5.907980] (localization_sanitazation) StdoutLine: {'line': b'writing dependency_links to ../../build/localization_sanitazation/localization_sanitazation.egg-info/dependency_links.txt\n'}
+[5.909052] (localization_sanitazation) StdoutLine: {'line': b'writing entry points to ../../build/localization_sanitazation/localization_sanitazation.egg-info/entry_points.txt\n'}
+[5.909387] (localization_sanitazation) StdoutLine: {'line': b'writing requirements to ../../build/localization_sanitazation/localization_sanitazation.egg-info/requires.txt\n'}
+[5.909735] (localization_sanitazation) StdoutLine: {'line': b'writing top-level names to ../../build/localization_sanitazation/localization_sanitazation.egg-info/top_level.txt\n'}
+[5.919666] (localization_sanitazation) StdoutLine: {'line': b"reading manifest file '../../build/localization_sanitazation/localization_sanitazation.egg-info/SOURCES.txt'\n"}
+[5.923199] (localization_sanitazation) StdoutLine: {'line': b"writing manifest file '../../build/localization_sanitazation/localization_sanitazation.egg-info/SOURCES.txt'\n"}
+[5.924448] (localization_sanitazation) StdoutLine: {'line': b'running build\n'}
+[5.925312] (localization_sanitazation) StdoutLine: {'line': b'running build_py\n'}
+[5.929931] (localization_sanitazation) StdoutLine: {'line': b'running install\n'}
+[5.931138] (localization_sanitazation) StdoutLine: {'line': b'running install_lib\n'}
+[5.936620] (localization_sanitazation) StdoutLine: {'line': b'running install_data\n'}
+[5.937438] (localization_sanitazation) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.947145] (localization_sanitazation) StdoutLine: {'line': b"removing '/home/amy/burger_ws1/install/localization_sanitazation/lib/python3.10/site-packages/localization_sanitazation-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.947753] (localization_sanitazation) StdoutLine: {'line': b'Copying ../../build/localization_sanitazation/localization_sanitazation.egg-info to /home/amy/burger_ws1/install/localization_sanitazation/lib/python3.10/site-packages/localization_sanitazation-0.0.0-py3.10.egg-info\n'}
+[5.952257] (localization_sanitazation) StdoutLine: {'line': b'running install_scripts\n'}
+[5.978150] (-) TimerEvent: {}
+[6.013940] (map_maker) CommandEnded: {'returncode': 0}
+[6.043038] (localization_sanitazation) StdoutLine: {'line': b'Installing FSMcontroller_node script to /home/amy/burger_ws1/install/localization_sanitazation/lib/localization_sanitazation\n'}
+[6.044114] (localization_sanitazation) StdoutLine: {'line': b'Installing localization_node script to /home/amy/burger_ws1/install/localization_sanitazation/lib/localization_sanitazation\n'}
+[6.044862] (localization_sanitazation) StdoutLine: {'line': b'Installing navigation_node script to /home/amy/burger_ws1/install/localization_sanitazation/lib/localization_sanitazation\n'}
+[6.045550] (localization_sanitazation) StdoutLine: {'line': b'Installing sanitization_node script to /home/amy/burger_ws1/install/localization_sanitazation/lib/localization_sanitazation\n'}
+[6.048412] (localization_sanitazation) StdoutLine: {'line': b"writing list of installed files to '/home/amy/burger_ws1/build/localization_sanitazation/install.log'\n"}
+[6.078380] (-) TimerEvent: {}
+[6.083895] (map_maker) JobEnded: {'identifier': 'map_maker', 'rc': 0}
+[6.159871] (localization_sanitazation) CommandEnded: {'returncode': 0}
+[6.178610] (-) TimerEvent: {}
+[6.183669] (localization_sanitazation) JobEnded: {'identifier': 'localization_sanitazation', 'rc': 0}
+[6.204139] (-) EventReactorShutdown: {}

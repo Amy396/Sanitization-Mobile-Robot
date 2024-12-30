@@ -1,0 +1,6 @@
+[console_scripts]
+basic_navigator_node = sanitizer_burger_controller.basic_navigator_node:main
+basic_sanitizer_navigator_node = sanitizer_burger_controller.basic_sanitizer_navigator_node:main
+exploration_node = sanitizer_burger_controller.exploration_node:main
+uv_sanitization_nod = sanitizer_burger_controller.uv_sanitization_node:main
+

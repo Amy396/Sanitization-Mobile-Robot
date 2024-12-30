@@ -1,0 +1,241 @@
+[0.171s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.171s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fece7261090>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fece73b2470>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fece73b2470>>)
+[0.668s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.668s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.668s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.668s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.668s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.668s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.668s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/amy/burger_ws1'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_sanitazation) by extensions ['ignore', 'ignore_ament_install']
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_sanitazation) by extension 'ignore'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_sanitazation) by extension 'ignore_ament_install'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_sanitazation) by extensions ['colcon_pkg']
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_sanitazation) by extension 'colcon_pkg'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_sanitazation) by extensions ['colcon_meta']
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_sanitazation) by extension 'colcon_meta'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_sanitazation) by extensions ['ros']
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_sanitazation) by extension 'ros'
+[0.680s] DEBUG:colcon.colcon_core.package_identification:Package 'src/localization_sanitazation' with type 'ros.ament_python' and name 'localization_sanitazation'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_maker) by extensions ['ignore', 'ignore_ament_install']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_maker) by extension 'ignore'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_maker) by extension 'ignore_ament_install'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_maker) by extensions ['colcon_pkg']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_maker) by extension 'colcon_pkg'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_maker) by extensions ['colcon_meta']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_maker) by extension 'colcon_meta'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_maker) by extensions ['ros']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_maker) by extension 'ros'
+[0.682s] DEBUG:colcon.colcon_core.package_identification:Package 'src/map_maker' with type 'ros.ament_python' and name 'map_maker'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_maker_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_maker_bringup) by extension 'ignore'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_maker_bringup) by extension 'ignore_ament_install'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_maker_bringup) by extensions ['colcon_pkg']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_maker_bringup) by extension 'colcon_pkg'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_maker_bringup) by extensions ['colcon_meta']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_maker_bringup) by extension 'colcon_meta'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_maker_bringup) by extensions ['ros']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_maker_bringup) by extension 'ros'
+[0.683s] DEBUG:colcon.colcon_core.package_identification:Package 'src/map_maker_bringup' with type 'ros.ament_cmake' and name 'map_maker_bringup'
+[0.683s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.683s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.683s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.683s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.683s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.739s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.739s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.751s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/amy/burger_ws1/install
+[0.753s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 348 installed packages in /opt/ros/humble
+[0.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.902s] Level 5:colcon.colcon_core.verb:set package 'localization_sanitazation' build argument 'cmake_args' from command line to 'None'
+[0.902s] Level 5:colcon.colcon_core.verb:set package 'localization_sanitazation' build argument 'cmake_target' from command line to 'None'
+[0.902s] Level 5:colcon.colcon_core.verb:set package 'localization_sanitazation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.902s] Level 5:colcon.colcon_core.verb:set package 'localization_sanitazation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.902s] Level 5:colcon.colcon_core.verb:set package 'localization_sanitazation' build argument 'cmake_clean_first' from command line to 'False'
+[0.902s] Level 5:colcon.colcon_core.verb:set package 'localization_sanitazation' build argument 'cmake_force_configure' from command line to 'False'
+[0.902s] Level 5:colcon.colcon_core.verb:set package 'localization_sanitazation' build argument 'ament_cmake_args' from command line to 'None'
+[0.902s] Level 5:colcon.colcon_core.verb:set package 'localization_sanitazation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.902s] Level 5:colcon.colcon_core.verb:set package 'localization_sanitazation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.903s] DEBUG:colcon.colcon_core.verb:Building package 'localization_sanitazation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/amy/burger_ws1/build/localization_sanitazation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/amy/burger_ws1/install/localization_sanitazation', 'merge_install': False, 'path': '/home/amy/burger_ws1/src/localization_sanitazation', 'symlink_install': False, 'test_result_base': None}
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'map_maker' build argument 'cmake_args' from command line to 'None'
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'map_maker' build argument 'cmake_target' from command line to 'None'
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'map_maker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'map_maker' build argument 'cmake_clean_cache' from command line to 'False'
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'map_maker' build argument 'cmake_clean_first' from command line to 'False'
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'map_maker' build argument 'cmake_force_configure' from command line to 'False'
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'map_maker' build argument 'ament_cmake_args' from command line to 'None'
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'map_maker' build argument 'catkin_cmake_args' from command line to 'None'
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'map_maker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.903s] DEBUG:colcon.colcon_core.verb:Building package 'map_maker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/amy/burger_ws1/build/map_maker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/amy/burger_ws1/install/map_maker', 'merge_install': False, 'path': '/home/amy/burger_ws1/src/map_maker', 'symlink_install': False, 'test_result_base': None}
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'map_maker_bringup' build argument 'cmake_args' from command line to 'None'
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'map_maker_bringup' build argument 'cmake_target' from command line to 'None'
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'map_maker_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'map_maker_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'map_maker_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'map_maker_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'map_maker_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'map_maker_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'map_maker_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.903s] DEBUG:colcon.colcon_core.verb:Building package 'map_maker_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/amy/burger_ws1/build/map_maker_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/amy/burger_ws1/install/map_maker_bringup', 'merge_install': False, 'path': '/home/amy/burger_ws1/src/map_maker_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.903s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.905s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.906s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/amy/burger_ws1/src/map_maker' with build type 'ament_python'
+[0.906s] Level 1:colcon.colcon_core.shell:create_environment_hook('map_maker', 'ament_prefix_path')
+[0.916s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amy/burger_ws1/install/map_maker/share/map_maker/hook/ament_prefix_path.ps1'
+[0.918s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amy/burger_ws1/install/map_maker/share/map_maker/hook/ament_prefix_path.dsv'
+[0.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amy/burger_ws1/install/map_maker/share/map_maker/hook/ament_prefix_path.sh'
+[0.920s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.920s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.924s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/amy/burger_ws1/src/localization_sanitazation' with build type 'ament_python'
+[0.924s] Level 1:colcon.colcon_core.shell:create_environment_hook('localization_sanitazation', 'ament_prefix_path')
+[0.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amy/burger_ws1/install/localization_sanitazation/share/localization_sanitazation/hook/ament_prefix_path.ps1'
+[0.926s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amy/burger_ws1/install/localization_sanitazation/share/localization_sanitazation/hook/ament_prefix_path.dsv'
+[0.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amy/burger_ws1/install/localization_sanitazation/share/localization_sanitazation/hook/ament_prefix_path.sh'
+[0.927s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.927s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.125s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/amy/burger_ws1/src/map_maker'
+[1.125s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.125s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.305s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/amy/burger_ws1/src/localization_sanitazation'
+[1.306s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.306s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amy/burger_ws1/src/map_maker': PYTHONPATH=/home/amy/burger_ws1/build/map_maker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amy/burger_ws1/install/map_maker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/map_maker build --build-base /home/amy/burger_ws1/build/map_maker/build install --record /home/amy/burger_ws1/build/map_maker/install.log --single-version-externally-managed install_data
+[1.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amy/burger_ws1/src/localization_sanitazation': PYTHONPATH=/home/amy/burger_ws1/build/localization_sanitazation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amy/burger_ws1/install/localization_sanitazation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/localization_sanitazation build --build-base /home/amy/burger_ws1/build/localization_sanitazation/build install --record /home/amy/burger_ws1/build/localization_sanitazation/install.log --single-version-externally-managed install_data
+[2.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amy/burger_ws1/src/map_maker' returned '0': PYTHONPATH=/home/amy/burger_ws1/build/map_maker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amy/burger_ws1/install/map_maker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/map_maker build --build-base /home/amy/burger_ws1/build/map_maker/build install --record /home/amy/burger_ws1/build/map_maker/install.log --single-version-externally-managed install_data
+[2.141s] Level 1:colcon.colcon_core.environment:checking '/home/amy/burger_ws1/install/map_maker' for CMake module files
+[2.142s] Level 1:colcon.colcon_core.environment:checking '/home/amy/burger_ws1/install/map_maker' for CMake config files
+[2.147s] Level 1:colcon.colcon_core.environment:checking '/home/amy/burger_ws1/install/map_maker/lib'
+[2.148s] Level 1:colcon.colcon_core.environment:checking '/home/amy/burger_ws1/install/map_maker/bin'
+[2.148s] Level 1:colcon.colcon_core.environment:checking '/home/amy/burger_ws1/install/map_maker/lib/pkgconfig/map_maker.pc'
+[2.148s] Level 1:colcon.colcon_core.environment:checking '/home/amy/burger_ws1/install/map_maker/lib/python3.10/site-packages'
+[2.148s] Level 1:colcon.colcon_core.shell:create_environment_hook('map_maker', 'pythonpath')
+[2.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amy/burger_ws1/install/map_maker/share/map_maker/hook/pythonpath.ps1'
+[2.148s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amy/burger_ws1/install/map_maker/share/map_maker/hook/pythonpath.dsv'
+[2.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amy/burger_ws1/install/map_maker/share/map_maker/hook/pythonpath.sh'
+[2.149s] Level 1:colcon.colcon_core.environment:checking '/home/amy/burger_ws1/install/map_maker/bin'
+[2.149s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(map_maker)
+[2.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/amy/burger_ws1/install/map_maker/share/map_maker/package.ps1'
+[2.150s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amy/burger_ws1/install/map_maker/share/map_maker/package.dsv'
+[2.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/amy/burger_ws1/install/map_maker/share/map_maker/package.sh'
+[2.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/amy/burger_ws1/install/map_maker/share/map_maker/package.bash'
+[2.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/amy/burger_ws1/install/map_maker/share/map_maker/package.zsh'
+[2.153s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amy/burger_ws1/install/map_maker/share/colcon-core/packages/map_maker)
+[2.154s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/amy/burger_ws1/src/map_maker_bringup' with build type 'ament_cmake'
+[2.154s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/amy/burger_ws1/src/map_maker_bringup'
+[2.154s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.154s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.160s] Level 1:colcon.colcon_core.environment:checking '/home/amy/burger_ws1/install/localization_sanitazation' for CMake module files
+[2.161s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amy/burger_ws1/src/localization_sanitazation' returned '0': PYTHONPATH=/home/amy/burger_ws1/build/localization_sanitazation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amy/burger_ws1/install/localization_sanitazation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/localization_sanitazation build --build-base /home/amy/burger_ws1/build/localization_sanitazation/build install --record /home/amy/burger_ws1/build/localization_sanitazation/install.log --single-version-externally-managed install_data
+[2.162s] Level 1:colcon.colcon_core.environment:checking '/home/amy/burger_ws1/install/localization_sanitazation' for CMake config files
+[2.162s] Level 1:colcon.colcon_core.environment:checking '/home/amy/burger_ws1/install/localization_sanitazation/lib'
+[2.162s] Level 1:colcon.colcon_core.environment:checking '/home/amy/burger_ws1/install/localization_sanitazation/bin'
+[2.162s] Level 1:colcon.colcon_core.environment:checking '/home/amy/burger_ws1/install/localization_sanitazation/lib/pkgconfig/localization_sanitazation.pc'
+[2.162s] Level 1:colcon.colcon_core.environment:checking '/home/amy/burger_ws1/install/localization_sanitazation/lib/python3.10/site-packages'
+[2.162s] Level 1:colcon.colcon_core.shell:create_environment_hook('localization_sanitazation', 'pythonpath')
+[2.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amy/burger_ws1/install/localization_sanitazation/share/localization_sanitazation/hook/pythonpath.ps1'
+[2.163s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amy/burger_ws1/install/localization_sanitazation/share/localization_sanitazation/hook/pythonpath.dsv'
+[2.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amy/burger_ws1/install/localization_sanitazation/share/localization_sanitazation/hook/pythonpath.sh'
+[2.163s] Level 1:colcon.colcon_core.environment:checking '/home/amy/burger_ws1/install/localization_sanitazation/bin'
+[2.163s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(localization_sanitazation)
+[2.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/amy/burger_ws1/install/localization_sanitazation/share/localization_sanitazation/package.ps1'
+[2.164s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amy/burger_ws1/install/localization_sanitazation/share/localization_sanitazation/package.dsv'
+[2.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/amy/burger_ws1/install/localization_sanitazation/share/localization_sanitazation/package.sh'
+[2.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/amy/burger_ws1/install/localization_sanitazation/share/localization_sanitazation/package.bash'
+[2.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/amy/burger_ws1/install/localization_sanitazation/share/localization_sanitazation/package.zsh'
+[2.165s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amy/burger_ws1/install/localization_sanitazation/share/colcon-core/packages/localization_sanitazation)
+[2.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amy/burger_ws1/build/map_maker_bringup': AMENT_PREFIX_PATH=/home/amy/burger_ws1/install/map_maker:/home/amy/burger_ws1/install/localization:/home/amy/burger_ws1/install/sanitizer_burger_controller:/home/amy/burger_ws1/install/velocity_controller_pkg:/home/amy/burger_ws1/install/turtlebot3:/home/amy/burger_ws1/install/turtlebot3_teleop:/home/amy/burger_ws1/install/turtlebot3_bringup:/home/amy/burger_ws1/install/turtlebot3_node:/home/amy/burger_ws1/install/turtlebot3_navigation2:/home/amy/burger_ws1/install/turtlebot3_example:/home/amy/burger_ws1/install/turtlebot3_description:/home/amy/burger_ws1/install/turtlebot3_cartographer:/home/amy/burger_ws1/install/map_maker_bringup:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amy/burger_ws1/install/localization:/home/amy/burger_ws1/install/sanitizer_burger_controller:/home/amy/burger_ws1/install/velocity_controller_pkg:/home/amy/burger_ws1/install/turtlebot3_teleop:/home/amy/burger_ws1/install/turtlebot3_example:/home/amy/burger_ws1/install/map_maker:/opt/ros/humble PYTHONPATH=/home/amy/burger_ws1/install/map_maker/lib/python3.10/site-packages:/home/amy/burger_ws1/install/localization/lib/python3.10/site-packages:/home/amy/burger_ws1/install/sanitizer_burger_controller/lib/python3.10/site-packages:/home/amy/burger_ws1/install/velocity_controller_pkg/lib/python3.10/site-packages:/home/amy/burger_ws1/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/amy/burger_ws1/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/amy/burger_ws1/build/map_maker_bringup -- -j8 -l8
+[2.287s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amy/burger_ws1/build/map_maker_bringup' returned '0': AMENT_PREFIX_PATH=/home/amy/burger_ws1/install/map_maker:/home/amy/burger_ws1/install/localization:/home/amy/burger_ws1/install/sanitizer_burger_controller:/home/amy/burger_ws1/install/velocity_controller_pkg:/home/amy/burger_ws1/install/turtlebot3:/home/amy/burger_ws1/install/turtlebot3_teleop:/home/amy/burger_ws1/install/turtlebot3_bringup:/home/amy/burger_ws1/install/turtlebot3_node:/home/amy/burger_ws1/install/turtlebot3_navigation2:/home/amy/burger_ws1/install/turtlebot3_example:/home/amy/burger_ws1/install/turtlebot3_description:/home/amy/burger_ws1/install/turtlebot3_cartographer:/home/amy/burger_ws1/install/map_maker_bringup:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amy/burger_ws1/install/localization:/home/amy/burger_ws1/install/sanitizer_burger_controller:/home/amy/burger_ws1/install/velocity_controller_pkg:/home/amy/burger_ws1/install/turtlebot3_teleop:/home/amy/burger_ws1/install/turtlebot3_example:/home/amy/burger_ws1/install/map_maker:/opt/ros/humble PYTHONPATH=/home/amy/burger_ws1/install/map_maker/lib/python3.10/site-packages:/home/amy/burger_ws1/install/localization/lib/python3.10/site-packages:/home/amy/burger_ws1/install/sanitizer_burger_controller/lib/python3.10/site-packages:/home/amy/burger_ws1/install/velocity_controller_pkg/lib/python3.10/site-packages:/home/amy/burger_ws1/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/amy/burger_ws1/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/amy/burger_ws1/build/map_maker_bringup -- -j8 -l8
+[2.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amy/burger_ws1/build/map_maker_bringup': AMENT_PREFIX_PATH=/home/amy/burger_ws1/install/map_maker:/home/amy/burger_ws1/install/localization:/home/amy/burger_ws1/install/sanitizer_burger_controller:/home/amy/burger_ws1/install/velocity_controller_pkg:/home/amy/burger_ws1/install/turtlebot3:/home/amy/burger_ws1/install/turtlebot3_teleop:/home/amy/burger_ws1/install/turtlebot3_bringup:/home/amy/burger_ws1/install/turtlebot3_node:/home/amy/burger_ws1/install/turtlebot3_navigation2:/home/amy/burger_ws1/install/turtlebot3_example:/home/amy/burger_ws1/install/turtlebot3_description:/home/amy/burger_ws1/install/turtlebot3_cartographer:/home/amy/burger_ws1/install/map_maker_bringup:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amy/burger_ws1/install/localization:/home/amy/burger_ws1/install/sanitizer_burger_controller:/home/amy/burger_ws1/install/velocity_controller_pkg:/home/amy/burger_ws1/install/turtlebot3_teleop:/home/amy/burger_ws1/install/turtlebot3_example:/home/amy/burger_ws1/install/map_maker:/opt/ros/humble PYTHONPATH=/home/amy/burger_ws1/install/map_maker/lib/python3.10/site-packages:/home/amy/burger_ws1/install/localization/lib/python3.10/site-packages:/home/amy/burger_ws1/install/sanitizer_burger_controller/lib/python3.10/site-packages:/home/amy/burger_ws1/install/velocity_controller_pkg/lib/python3.10/site-packages:/home/amy/burger_ws1/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/amy/burger_ws1/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/amy/burger_ws1/build/map_maker_bringup
+[2.307s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(map_maker_bringup)
+[2.308s] Level 1:colcon.colcon_core.environment:checking '/home/amy/burger_ws1/install/map_maker_bringup' for CMake module files
+[2.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amy/burger_ws1/build/map_maker_bringup' returned '0': AMENT_PREFIX_PATH=/home/amy/burger_ws1/install/map_maker:/home/amy/burger_ws1/install/localization:/home/amy/burger_ws1/install/sanitizer_burger_controller:/home/amy/burger_ws1/install/velocity_controller_pkg:/home/amy/burger_ws1/install/turtlebot3:/home/amy/burger_ws1/install/turtlebot3_teleop:/home/amy/burger_ws1/install/turtlebot3_bringup:/home/amy/burger_ws1/install/turtlebot3_node:/home/amy/burger_ws1/install/turtlebot3_navigation2:/home/amy/burger_ws1/install/turtlebot3_example:/home/amy/burger_ws1/install/turtlebot3_description:/home/amy/burger_ws1/install/turtlebot3_cartographer:/home/amy/burger_ws1/install/map_maker_bringup:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amy/burger_ws1/install/localization:/home/amy/burger_ws1/install/sanitizer_burger_controller:/home/amy/burger_ws1/install/velocity_controller_pkg:/home/amy/burger_ws1/install/turtlebot3_teleop:/home/amy/burger_ws1/install/turtlebot3_example:/home/amy/burger_ws1/install/map_maker:/opt/ros/humble PYTHONPATH=/home/amy/burger_ws1/install/map_maker/lib/python3.10/site-packages:/home/amy/burger_ws1/install/localization/lib/python3.10/site-packages:/home/amy/burger_ws1/install/sanitizer_burger_controller/lib/python3.10/site-packages:/home/amy/burger_ws1/install/velocity_controller_pkg/lib/python3.10/site-packages:/home/amy/burger_ws1/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/amy/burger_ws1/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/amy/burger_ws1/build/map_maker_bringup
+[2.309s] Level 1:colcon.colcon_core.environment:checking '/home/amy/burger_ws1/install/map_maker_bringup' for CMake config files
+[2.311s] Level 1:colcon.colcon_core.shell:create_environment_hook('map_maker_bringup', 'cmake_prefix_path')
+[2.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amy/burger_ws1/install/map_maker_bringup/share/map_maker_bringup/hook/cmake_prefix_path.ps1'
+[2.312s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amy/burger_ws1/install/map_maker_bringup/share/map_maker_bringup/hook/cmake_prefix_path.dsv'
+[2.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amy/burger_ws1/install/map_maker_bringup/share/map_maker_bringup/hook/cmake_prefix_path.sh'
+[2.312s] Level 1:colcon.colcon_core.environment:checking '/home/amy/burger_ws1/install/map_maker_bringup/bin'
+[2.313s] Level 1:colcon.colcon_core.environment:checking '/home/amy/burger_ws1/install/map_maker_bringup/lib/pkgconfig/map_maker_bringup.pc'
+[2.313s] Level 1:colcon.colcon_core.environment:checking '/home/amy/burger_ws1/install/map_maker_bringup/lib/python3.10/site-packages'
+[2.313s] Level 1:colcon.colcon_core.environment:checking '/home/amy/burger_ws1/install/map_maker_bringup/bin'
+[2.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/amy/burger_ws1/install/map_maker_bringup/share/map_maker_bringup/package.ps1'
+[2.314s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amy/burger_ws1/install/map_maker_bringup/share/map_maker_bringup/package.dsv'
+[2.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/amy/burger_ws1/install/map_maker_bringup/share/map_maker_bringup/package.sh'
+[2.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/amy/burger_ws1/install/map_maker_bringup/share/map_maker_bringup/package.bash'
+[2.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/amy/burger_ws1/install/map_maker_bringup/share/map_maker_bringup/package.zsh'
+[2.314s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amy/burger_ws1/install/map_maker_bringup/share/colcon-core/packages/map_maker_bringup)
+[2.315s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(map_maker_bringup)
+[2.315s] Level 1:colcon.colcon_core.environment:checking '/home/amy/burger_ws1/install/map_maker_bringup' for CMake module files
+[2.315s] Level 1:colcon.colcon_core.environment:checking '/home/amy/burger_ws1/install/map_maker_bringup' for CMake config files
+[2.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('map_maker_bringup', 'cmake_prefix_path')
+[2.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amy/burger_ws1/install/map_maker_bringup/share/map_maker_bringup/hook/cmake_prefix_path.ps1'
+[2.316s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amy/burger_ws1/install/map_maker_bringup/share/map_maker_bringup/hook/cmake_prefix_path.dsv'
+[2.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amy/burger_ws1/install/map_maker_bringup/share/map_maker_bringup/hook/cmake_prefix_path.sh'
+[2.316s] Level 1:colcon.colcon_core.environment:checking '/home/amy/burger_ws1/install/map_maker_bringup/bin'
+[2.317s] Level 1:colcon.colcon_core.environment:checking '/home/amy/burger_ws1/install/map_maker_bringup/lib/pkgconfig/map_maker_bringup.pc'
+[2.317s] Level 1:colcon.colcon_core.environment:checking '/home/amy/burger_ws1/install/map_maker_bringup/lib/python3.10/site-packages'
+[2.317s] Level 1:colcon.colcon_core.environment:checking '/home/amy/burger_ws1/install/map_maker_bringup/bin'
+[2.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/amy/burger_ws1/install/map_maker_bringup/share/map_maker_bringup/package.ps1'
+[2.318s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amy/burger_ws1/install/map_maker_bringup/share/map_maker_bringup/package.dsv'
+[2.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/amy/burger_ws1/install/map_maker_bringup/share/map_maker_bringup/package.sh'
+[2.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/amy/burger_ws1/install/map_maker_bringup/share/map_maker_bringup/package.bash'
+[2.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/amy/burger_ws1/install/map_maker_bringup/share/map_maker_bringup/package.zsh'
+[2.319s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amy/burger_ws1/install/map_maker_bringup/share/colcon-core/packages/map_maker_bringup)
+[2.319s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.320s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.320s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.320s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.369s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.369s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.369s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.369s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.371s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2.371s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.371s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amy/burger_ws1/install/local_setup.ps1'
+[2.372s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/amy/burger_ws1/install/_local_setup_util_ps1.py'
+[2.374s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amy/burger_ws1/install/setup.ps1'
+[2.375s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amy/burger_ws1/install/local_setup.sh'
+[2.376s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/amy/burger_ws1/install/_local_setup_util_sh.py'
+[2.376s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amy/burger_ws1/install/setup.sh'
+[2.377s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amy/burger_ws1/install/local_setup.bash'
+[2.378s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amy/burger_ws1/install/setup.bash'
+[2.379s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amy/burger_ws1/install/local_setup.zsh'
+[2.380s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amy/burger_ws1/install/setup.zsh'

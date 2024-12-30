@@ -1,0 +1,50 @@
+[0.038s] Invoking command in '/home/amy/burger_ws1/build/turtlebot3_bringup': CMAKE_PREFIX_PATH=/home/amy/burger_ws1/install/turtlebot3_node:/home/amy/burger_ws1/install/turtlebot3_description:/home/amy/burger_ws1/install/turtlebot3:/home/amy/burger_ws1/install/turtlebot3_simulations:/home/amy/burger_ws1/install/turtlebot3_bringup:/home/amy/burger_ws1/install/turtlebot3_navigation2:/home/amy/burger_ws1/install/turtlebot3_gazebo:/home/amy/burger_ws1/install/turtlebot3_fake_node:/home/amy/burger_ws1/install/turtlebot3_cartographer:/home/amy/burger_ws1/install/map_maker_bringup:/home/amy/burger_ws1/install/sanitizer_burger_controller:/home/amy/burger_ws1/install/velocity_controller_pkg:/home/amy/burger_ws1/install/turtlebot3_teleop:/home/amy/burger_ws1/install/turtlebot3_example:/home/amy/burger_ws1/install/map_maker:/opt/ros/humble /usr/bin/cmake /home/amy/burger_ws1/src/turtlebot3/turtlebot3_bringup -DCMAKE_INSTALL_PREFIX=/home/amy/burger_ws1/install/turtlebot3_bringup
+[0.107s] -- The C compiler identification is GNU 11.4.0
+[0.286s] -- The CXX compiler identification is GNU 11.4.0
+[0.401s] -- Detecting C compiler ABI info
+[0.476s] -- Detecting C compiler ABI info - done
+[0.481s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.481s] -- Detecting C compile features
+[0.481s] -- Detecting C compile features - done
+[0.483s] -- Detecting CXX compiler ABI info
+[0.561s] -- Detecting CXX compiler ABI info - done
+[0.566s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.566s] -- Detecting CXX compile features
+[0.566s] -- Detecting CXX compile features - done
+[0.568s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.667s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.773s] -- Configuring done
+[0.775s] -- Generating done
+[0.776s] -- Build files have been written to: /home/amy/burger_ws1/build/turtlebot3_bringup
+[0.780s] Invoked command in '/home/amy/burger_ws1/build/turtlebot3_bringup' returned '0': CMAKE_PREFIX_PATH=/home/amy/burger_ws1/install/turtlebot3_node:/home/amy/burger_ws1/install/turtlebot3_description:/home/amy/burger_ws1/install/turtlebot3:/home/amy/burger_ws1/install/turtlebot3_simulations:/home/amy/burger_ws1/install/turtlebot3_bringup:/home/amy/burger_ws1/install/turtlebot3_navigation2:/home/amy/burger_ws1/install/turtlebot3_gazebo:/home/amy/burger_ws1/install/turtlebot3_fake_node:/home/amy/burger_ws1/install/turtlebot3_cartographer:/home/amy/burger_ws1/install/map_maker_bringup:/home/amy/burger_ws1/install/sanitizer_burger_controller:/home/amy/burger_ws1/install/velocity_controller_pkg:/home/amy/burger_ws1/install/turtlebot3_teleop:/home/amy/burger_ws1/install/turtlebot3_example:/home/amy/burger_ws1/install/map_maker:/opt/ros/humble /usr/bin/cmake /home/amy/burger_ws1/src/turtlebot3/turtlebot3_bringup -DCMAKE_INSTALL_PREFIX=/home/amy/burger_ws1/install/turtlebot3_bringup
+[0.781s] Invoking command in '/home/amy/burger_ws1/build/turtlebot3_bringup': CMAKE_PREFIX_PATH=/home/amy/burger_ws1/install/turtlebot3_node:/home/amy/burger_ws1/install/turtlebot3_description:/home/amy/burger_ws1/install/turtlebot3:/home/amy/burger_ws1/install/turtlebot3_simulations:/home/amy/burger_ws1/install/turtlebot3_bringup:/home/amy/burger_ws1/install/turtlebot3_navigation2:/home/amy/burger_ws1/install/turtlebot3_gazebo:/home/amy/burger_ws1/install/turtlebot3_fake_node:/home/amy/burger_ws1/install/turtlebot3_cartographer:/home/amy/burger_ws1/install/map_maker_bringup:/home/amy/burger_ws1/install/sanitizer_burger_controller:/home/amy/burger_ws1/install/velocity_controller_pkg:/home/amy/burger_ws1/install/turtlebot3_teleop:/home/amy/burger_ws1/install/turtlebot3_example:/home/amy/burger_ws1/install/map_maker:/opt/ros/humble /usr/bin/cmake --build /home/amy/burger_ws1/build/turtlebot3_bringup -- -j8 -l8
+[0.803s] Invoked command in '/home/amy/burger_ws1/build/turtlebot3_bringup' returned '0': CMAKE_PREFIX_PATH=/home/amy/burger_ws1/install/turtlebot3_node:/home/amy/burger_ws1/install/turtlebot3_description:/home/amy/burger_ws1/install/turtlebot3:/home/amy/burger_ws1/install/turtlebot3_simulations:/home/amy/burger_ws1/install/turtlebot3_bringup:/home/amy/burger_ws1/install/turtlebot3_navigation2:/home/amy/burger_ws1/install/turtlebot3_gazebo:/home/amy/burger_ws1/install/turtlebot3_fake_node:/home/amy/burger_ws1/install/turtlebot3_cartographer:/home/amy/burger_ws1/install/map_maker_bringup:/home/amy/burger_ws1/install/sanitizer_burger_controller:/home/amy/burger_ws1/install/velocity_controller_pkg:/home/amy/burger_ws1/install/turtlebot3_teleop:/home/amy/burger_ws1/install/turtlebot3_example:/home/amy/burger_ws1/install/map_maker:/opt/ros/humble /usr/bin/cmake --build /home/amy/burger_ws1/build/turtlebot3_bringup -- -j8 -l8
+[0.804s] Invoking command in '/home/amy/burger_ws1/build/turtlebot3_bringup': CMAKE_PREFIX_PATH=/home/amy/burger_ws1/install/turtlebot3_node:/home/amy/burger_ws1/install/turtlebot3_description:/home/amy/burger_ws1/install/turtlebot3:/home/amy/burger_ws1/install/turtlebot3_simulations:/home/amy/burger_ws1/install/turtlebot3_bringup:/home/amy/burger_ws1/install/turtlebot3_navigation2:/home/amy/burger_ws1/install/turtlebot3_gazebo:/home/amy/burger_ws1/install/turtlebot3_fake_node:/home/amy/burger_ws1/install/turtlebot3_cartographer:/home/amy/burger_ws1/install/map_maker_bringup:/home/amy/burger_ws1/install/sanitizer_burger_controller:/home/amy/burger_ws1/install/velocity_controller_pkg:/home/amy/burger_ws1/install/turtlebot3_teleop:/home/amy/burger_ws1/install/turtlebot3_example:/home/amy/burger_ws1/install/map_maker:/opt/ros/humble /usr/bin/cmake --install /home/amy/burger_ws1/build/turtlebot3_bringup
+[0.808s] -- Install configuration: ""
+[0.808s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_bringup/share/turtlebot3_bringup/launch
+[0.809s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/turtlebot3_state_publisher.launch.py
+[0.810s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/robot.launch.py
+[0.810s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/rviz2.launch.py
+[0.811s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_bringup/share/turtlebot3_bringup/param
+[0.811s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_bringup/share/turtlebot3_bringup/param/waffle_pi.yaml
+[0.812s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_bringup/share/turtlebot3_bringup/param/burger.yaml
+[0.812s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_bringup/share/turtlebot3_bringup/param/waffle.yaml
+[0.813s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_bringup/share/turtlebot3_bringup/script
+[0.813s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_bringup/share/turtlebot3_bringup/script/99-turtlebot3-cdc.rules
+[0.814s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_bringup/share/turtlebot3_bringup/script/create_udev_rules
+[0.815s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_bringup/share/ament_index/resource_index/package_run_dependencies/turtlebot3_bringup
+[0.815s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_bringup/share/ament_index/resource_index/parent_prefix_path/turtlebot3_bringup
+[0.815s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/ament_prefix_path.sh
+[0.815s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/ament_prefix_path.dsv
+[0.815s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/path.sh
+[0.815s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/path.dsv
+[0.815s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.bash
+[0.816s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.sh
+[0.816s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.zsh
+[0.816s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.dsv
+[0.816s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_bringup/share/turtlebot3_bringup/package.dsv
+[0.816s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_bringup/share/ament_index/resource_index/packages/turtlebot3_bringup
+[0.816s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_bringup/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig.cmake
+[0.816s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_bringup/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig-version.cmake
+[0.816s] -- Installing: /home/amy/burger_ws1/install/turtlebot3_bringup/share/turtlebot3_bringup/package.xml
+[0.818s] Invoked command in '/home/amy/burger_ws1/build/turtlebot3_bringup' returned '0': CMAKE_PREFIX_PATH=/home/amy/burger_ws1/install/turtlebot3_node:/home/amy/burger_ws1/install/turtlebot3_description:/home/amy/burger_ws1/install/turtlebot3:/home/amy/burger_ws1/install/turtlebot3_simulations:/home/amy/burger_ws1/install/turtlebot3_bringup:/home/amy/burger_ws1/install/turtlebot3_navigation2:/home/amy/burger_ws1/install/turtlebot3_gazebo:/home/amy/burger_ws1/install/turtlebot3_fake_node:/home/amy/burger_ws1/install/turtlebot3_cartographer:/home/amy/burger_ws1/install/map_maker_bringup:/home/amy/burger_ws1/install/sanitizer_burger_controller:/home/amy/burger_ws1/install/velocity_controller_pkg:/home/amy/burger_ws1/install/turtlebot3_teleop:/home/amy/burger_ws1/install/turtlebot3_example:/home/amy/burger_ws1/install/map_maker:/opt/ros/humble /usr/bin/cmake --install /home/amy/burger_ws1/build/turtlebot3_bringup

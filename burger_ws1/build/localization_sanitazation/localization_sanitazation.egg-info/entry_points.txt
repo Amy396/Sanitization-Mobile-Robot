@@ -1,0 +1,6 @@
+[console_scripts]
+FSMcontroller_node = localization_sanitazation.FSMcontroller_node:main
+localization_node = localization_sanitazation.localization_node:main
+navigation_node = localization_sanitazation.navigation_node:main
+sanitization_node = localization_sanitazation.sanitization_node:main
+

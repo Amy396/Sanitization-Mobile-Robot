@@ -1,0 +1,24 @@
+[5.588s] Invoking command in '/home/amy/burger_ws1/src/sanitizer_burger_controller': PYTHONPATH=/home/amy/burger_ws1/build/sanitizer_burger_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amy/burger_ws1/install/sanitizer_burger_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sanitizer_burger_controller build --build-base /home/amy/burger_ws1/build/sanitizer_burger_controller/build install --record /home/amy/burger_ws1/build/sanitizer_burger_controller/install.log --single-version-externally-managed install_data
+[6.784s] running egg_info
+[6.788s] writing ../../build/sanitizer_burger_controller/sanitizer_burger_controller.egg-info/PKG-INFO
+[6.788s] writing dependency_links to ../../build/sanitizer_burger_controller/sanitizer_burger_controller.egg-info/dependency_links.txt
+[6.788s] writing entry points to ../../build/sanitizer_burger_controller/sanitizer_burger_controller.egg-info/entry_points.txt
+[6.789s] writing requirements to ../../build/sanitizer_burger_controller/sanitizer_burger_controller.egg-info/requires.txt
+[6.789s] writing top-level names to ../../build/sanitizer_burger_controller/sanitizer_burger_controller.egg-info/top_level.txt
+[6.798s] reading manifest file '../../build/sanitizer_burger_controller/sanitizer_burger_controller.egg-info/SOURCES.txt'
+[6.801s] writing manifest file '../../build/sanitizer_burger_controller/sanitizer_burger_controller.egg-info/SOURCES.txt'
+[6.802s] running build
+[6.803s] running build_py
+[6.805s] running install
+[6.806s] running install_lib
+[6.810s] running install_data
+[6.810s] running install_egg_info
+[6.817s] removing '/home/amy/burger_ws1/install/sanitizer_burger_controller/lib/python3.10/site-packages/sanitizer_burger_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[6.819s] Copying ../../build/sanitizer_burger_controller/sanitizer_burger_controller.egg-info to /home/amy/burger_ws1/install/sanitizer_burger_controller/lib/python3.10/site-packages/sanitizer_burger_controller-0.0.0-py3.10.egg-info
+[6.821s] running install_scripts
+[6.892s] Installing basic_navigator_node script to /home/amy/burger_ws1/install/sanitizer_burger_controller/lib/sanitizer_burger_controller
+[6.893s] Installing basic_sanitizer_navigator_node script to /home/amy/burger_ws1/install/sanitizer_burger_controller/lib/sanitizer_burger_controller
+[6.894s] Installing exploration_node script to /home/amy/burger_ws1/install/sanitizer_burger_controller/lib/sanitizer_burger_controller
+[6.895s] Installing uv_sanitization_nod script to /home/amy/burger_ws1/install/sanitizer_burger_controller/lib/sanitizer_burger_controller
+[6.896s] writing list of installed files to '/home/amy/burger_ws1/build/sanitizer_burger_controller/install.log'
+[7.068s] Invoked command in '/home/amy/burger_ws1/src/sanitizer_burger_controller' returned '0': PYTHONPATH=/home/amy/burger_ws1/build/sanitizer_burger_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amy/burger_ws1/install/sanitizer_burger_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sanitizer_burger_controller build --build-base /home/amy/burger_ws1/build/sanitizer_burger_controller/build install --record /home/amy/burger_ws1/build/sanitizer_burger_controller/install.log --single-version-externally-managed install_data

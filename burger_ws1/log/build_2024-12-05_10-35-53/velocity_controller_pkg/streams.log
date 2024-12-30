@@ -1,0 +1,41 @@
+[1.566s] Invoking command in '/home/amy/burger_ws1/src/velocity_controller_pkg': PYTHONPATH=/home/amy/burger_ws1/build/velocity_controller_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amy/burger_ws1/install/velocity_controller_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/velocity_controller_pkg build --build-base /home/amy/burger_ws1/build/velocity_controller_pkg/build install --record /home/amy/burger_ws1/build/velocity_controller_pkg/install.log --single-version-externally-managed install_data
+[1.825s] running egg_info
+[1.826s] creating ../../build/velocity_controller_pkg/velocity_controller_pkg.egg-info
+[1.827s] writing ../../build/velocity_controller_pkg/velocity_controller_pkg.egg-info/PKG-INFO
+[1.827s] writing dependency_links to ../../build/velocity_controller_pkg/velocity_controller_pkg.egg-info/dependency_links.txt
+[1.827s] writing entry points to ../../build/velocity_controller_pkg/velocity_controller_pkg.egg-info/entry_points.txt
+[1.827s] writing requirements to ../../build/velocity_controller_pkg/velocity_controller_pkg.egg-info/requires.txt
+[1.828s] writing top-level names to ../../build/velocity_controller_pkg/velocity_controller_pkg.egg-info/top_level.txt
+[1.828s] writing manifest file '../../build/velocity_controller_pkg/velocity_controller_pkg.egg-info/SOURCES.txt'
+[1.828s] reading manifest file '../../build/velocity_controller_pkg/velocity_controller_pkg.egg-info/SOURCES.txt'
+[1.831s] writing manifest file '../../build/velocity_controller_pkg/velocity_controller_pkg.egg-info/SOURCES.txt'
+[1.831s] running build
+[1.831s] running build_py
+[1.831s] creating /home/amy/burger_ws1/build/velocity_controller_pkg/build
+[1.832s] creating /home/amy/burger_ws1/build/velocity_controller_pkg/build/lib
+[1.832s] creating /home/amy/burger_ws1/build/velocity_controller_pkg/build/lib/velocity_controller_pkg
+[1.832s] copying velocity_controller_pkg/__init__.py -> /home/amy/burger_ws1/build/velocity_controller_pkg/build/lib/velocity_controller_pkg
+[1.832s] copying velocity_controller_pkg/velocity_controller_node.py -> /home/amy/burger_ws1/build/velocity_controller_pkg/build/lib/velocity_controller_pkg
+[1.833s] copying velocity_controller_pkg/velocity_controller_with_FSM_node.py -> /home/amy/burger_ws1/build/velocity_controller_pkg/build/lib/velocity_controller_pkg
+[1.833s] running install
+[1.833s] running install_lib
+[1.834s] creating /home/amy/burger_ws1/install/velocity_controller_pkg/lib/python3.10/site-packages/velocity_controller_pkg
+[1.834s] copying /home/amy/burger_ws1/build/velocity_controller_pkg/build/lib/velocity_controller_pkg/__init__.py -> /home/amy/burger_ws1/install/velocity_controller_pkg/lib/python3.10/site-packages/velocity_controller_pkg
+[1.834s] copying /home/amy/burger_ws1/build/velocity_controller_pkg/build/lib/velocity_controller_pkg/velocity_controller_node.py -> /home/amy/burger_ws1/install/velocity_controller_pkg/lib/python3.10/site-packages/velocity_controller_pkg
+[1.834s] copying /home/amy/burger_ws1/build/velocity_controller_pkg/build/lib/velocity_controller_pkg/velocity_controller_with_FSM_node.py -> /home/amy/burger_ws1/install/velocity_controller_pkg/lib/python3.10/site-packages/velocity_controller_pkg
+[1.835s] byte-compiling /home/amy/burger_ws1/install/velocity_controller_pkg/lib/python3.10/site-packages/velocity_controller_pkg/__init__.py to __init__.cpython-310.pyc
+[1.836s] byte-compiling /home/amy/burger_ws1/install/velocity_controller_pkg/lib/python3.10/site-packages/velocity_controller_pkg/velocity_controller_node.py to velocity_controller_node.cpython-310.pyc
+[1.836s] byte-compiling /home/amy/burger_ws1/install/velocity_controller_pkg/lib/python3.10/site-packages/velocity_controller_pkg/velocity_controller_with_FSM_node.py to velocity_controller_with_FSM_node.cpython-310.pyc
+[1.837s] running install_data
+[1.837s] creating /home/amy/burger_ws1/install/velocity_controller_pkg/share/ament_index
+[1.837s] creating /home/amy/burger_ws1/install/velocity_controller_pkg/share/ament_index/resource_index
+[1.837s] creating /home/amy/burger_ws1/install/velocity_controller_pkg/share/ament_index/resource_index/packages
+[1.838s] copying resource/velocity_controller_pkg -> /home/amy/burger_ws1/install/velocity_controller_pkg/share/ament_index/resource_index/packages
+[1.838s] copying package.xml -> /home/amy/burger_ws1/install/velocity_controller_pkg/share/velocity_controller_pkg
+[1.838s] running install_egg_info
+[1.839s] Copying ../../build/velocity_controller_pkg/velocity_controller_pkg.egg-info to /home/amy/burger_ws1/install/velocity_controller_pkg/lib/python3.10/site-packages/velocity_controller_pkg-0.0.0-py3.10.egg-info
+[1.840s] running install_scripts
+[1.859s] Installing velocity_controller_node script to /home/amy/burger_ws1/install/velocity_controller_pkg/lib/velocity_controller_pkg
+[1.859s] Installing velocity_controller_with_FSM_node script to /home/amy/burger_ws1/install/velocity_controller_pkg/lib/velocity_controller_pkg
+[1.860s] writing list of installed files to '/home/amy/burger_ws1/build/velocity_controller_pkg/install.log'
+[1.903s] Invoked command in '/home/amy/burger_ws1/src/velocity_controller_pkg' returned '0': PYTHONPATH=/home/amy/burger_ws1/build/velocity_controller_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amy/burger_ws1/install/velocity_controller_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/velocity_controller_pkg build --build-base /home/amy/burger_ws1/build/velocity_controller_pkg/build install --record /home/amy/burger_ws1/build/velocity_controller_pkg/install.log --single-version-externally-managed install_data

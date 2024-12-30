@@ -1,0 +1,20 @@
+running develop
+running egg_info
+writing localization_sanitazation.egg-info/PKG-INFO
+writing dependency_links to localization_sanitazation.egg-info/dependency_links.txt
+writing entry points to localization_sanitazation.egg-info/entry_points.txt
+writing requirements to localization_sanitazation.egg-info/requires.txt
+writing top-level names to localization_sanitazation.egg-info/top_level.txt
+reading manifest file 'localization_sanitazation.egg-info/SOURCES.txt'
+writing manifest file 'localization_sanitazation.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/amy/burger_ws1/install/localization_sanitazation/lib/python3.10/site-packages/localization-sanitazation.egg-link (link to .)
+Installing FSMcontroller_node script to /home/amy/burger_ws1/install/localization_sanitazation/lib/localization_sanitazation
+Installing localization_node script to /home/amy/burger_ws1/install/localization_sanitazation/lib/localization_sanitazation
+Installing navigation_node script to /home/amy/burger_ws1/install/localization_sanitazation/lib/localization_sanitazation
+Installing sanitization_node script to /home/amy/burger_ws1/install/localization_sanitazation/lib/localization_sanitazation
+
+Installed /home/amy/burger_ws1/build/localization_sanitazation
+running symlink_data
+symbolically linking /home/amy/burger_ws1/build/localization_sanitazation/resource/localization_sanitazation -> /home/amy/burger_ws1/install/localization_sanitazation/share/ament_index/resource_index/packages
+symbolically linking /home/amy/burger_ws1/build/localization_sanitazation/package.xml -> /home/amy/burger_ws1/install/localization_sanitazation/share/localization_sanitazation

@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/map_maker/map_maker.egg-info/PKG-INFO
+writing dependency_links to ../../build/map_maker/map_maker.egg-info/dependency_links.txt
+writing entry points to ../../build/map_maker/map_maker.egg-info/entry_points.txt
+writing requirements to ../../build/map_maker/map_maker.egg-info/requires.txt
+writing top-level names to ../../build/map_maker/map_maker.egg-info/top_level.txt
+reading manifest file '../../build/map_maker/map_maker.egg-info/SOURCES.txt'
+writing manifest file '../../build/map_maker/map_maker.egg-info/SOURCES.txt'
+running build
+running build_py
+copying map_maker/frontier_explorer_node.py -> /home/amy/burger_ws1/build/map_maker/build/lib/map_maker
+running install
+running install_lib
+copying /home/amy/burger_ws1/build/map_maker/build/lib/map_maker/frontier_explorer_node.py -> /home/amy/burger_ws1/install/map_maker/lib/python3.10/site-packages/map_maker
+byte-compiling /home/amy/burger_ws1/install/map_maker/lib/python3.10/site-packages/map_maker/frontier_explorer_node.py to frontier_explorer_node.cpython-310.pyc
+running install_data
+running install_egg_info
+Sorry: IndentationError: expected an indented block after 'with' statement on line 17 (frontier_explorer_node.py, line 19)
+removing '/home/amy/burger_ws1/install/map_maker/lib/python3.10/site-packages/map_maker-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/map_maker/map_maker.egg-info to /home/amy/burger_ws1/install/map_maker/lib/python3.10/site-packages/map_maker-0.0.0-py3.10.egg-info
+running install_scripts
+Installing FSM_controller_node script to /home/amy/burger_ws1/install/map_maker/lib/map_maker
+Installing frontier_explorer_node script to /home/amy/burger_ws1/install/map_maker/lib/map_maker
+Installing path_planning_navigator_node script to /home/amy/burger_ws1/install/map_maker/lib/map_maker
+Installing rotation_node script to /home/amy/burger_ws1/install/map_maker/lib/map_maker
+writing list of installed files to '/home/amy/burger_ws1/build/map_maker/install.log'
