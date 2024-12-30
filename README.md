@@ -53,6 +53,7 @@ ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True
 - Manage exploration states via a finite state machine (FSM).
 
 #### Launch Commands:
+-after lunching Gazebo and nav2 stack and slam toolbox, you need to run following nodes.
 ```bash
 ros2 run map_maker frontier_explorer_node
 ros2 run map_maker path_planning_navigator_node
