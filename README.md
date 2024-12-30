@@ -40,45 +40,45 @@ The robot aims to autonomously operate in unknown, confined environments, creati
 - Adjust Navigation parameters for efficient path planning.
 
 #### Launch Commands:
-```bash
+
 ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
 ros2 launch slam_toolbox online_async_launch.py
 ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True
 
 ---
 
-## **Task 2: Autonomous Mapping**
+### **Task 2: Autonomous Mapping**
 
 - Implement frontier exploration and path planning using A* and B-spline smoothing.
 - Manage exploration states via a finite state machine (FSM).
 
 #### Launch Commands:
-```bash
+
 ros2 run map_maker frontier_explorer_node
 ros2 run map_maker path_planning_navigator_node
 
 ---
 
 -after map making is accomplished, save map.
-```bash
+
 ros2 run nav2_map_server map_saver_cli -f maps/house_maps
 
 ---
 
-## **Task 3: Localization and Navigation**
+### **Task 3: Localization and Navigation**
 
 - Switch middleware to CycloneDDS and configure AMCL parameters for TurtleBot3.
 - Localize the robot on the prebuilt map and navigate to predefined goals.
 
 #### Launch Commands:
-```bash
+
 ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True map:=/path/to/house_maps.yaml
 ros2 run localization_sanitization localization_node
 ros2 run localization_sanitization navigation_node
 
 ---
 
-## **Task 4: Sanitization**
+### **Task 4: Sanitization**
 
 - Define rooms and UV energy thresholds.
 - Visualize UV energy and sanitized areas in RViz.
@@ -87,7 +87,7 @@ ros2 run localization_sanitization navigation_node
 #### Launch Commands:
 -After task 3 is completed, and navigator node  show following message :
 -No more goals. Stopping Navigator
-```bash
+
 ros2 run localization_sanitization sanitization_node
 
 ---
