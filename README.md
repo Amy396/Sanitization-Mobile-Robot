@@ -44,7 +44,8 @@ The robot aims to autonomously operate in unknown, confined environments, creati
 ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
 ros2 launch slam_toolbox online_async_launch.py
 ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True
-```bash
+
+---
 
 ## **Task 2: Autonomous Mapping**
 
@@ -56,9 +57,13 @@ ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True
 ros2 run map_maker frontier_explorer_node
 ros2 run map_maker path_planning_navigator_node
 
+---
+
 -after map making is accomplished, save map.
 ```bash
 ros2 run nav2_map_server map_saver_cli -f maps/house_maps
+
+---
 
 ## **Task 3: Localization and Navigation**
 
@@ -70,6 +75,8 @@ ros2 run nav2_map_server map_saver_cli -f maps/house_maps
 ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True map:=/path/to/house_maps.yaml
 ros2 run localization_sanitization localization_node
 ros2 run localization_sanitization navigation_node
+
+---
 
 ## **Task 4: Sanitization**
 
@@ -83,4 +90,5 @@ ros2 run localization_sanitization navigation_node
 ```bash
 ros2 run localization_sanitization sanitization_node
 
+---
 
