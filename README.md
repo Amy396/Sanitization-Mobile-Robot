@@ -44,6 +44,7 @@ The robot aims to autonomously operate in unknown, confined environments, creati
 ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
 ros2 launch slam_toolbox online_async_launch.py
 ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True
+```bash
 
 ## **Task 2: Autonomous Mapping**
 
